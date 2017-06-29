@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameworkConfig>
+  <TestEnvironment Name="default">   
+    <Config name="Log4JPropertiesFilePath" value="./configuration/log4j.properties"></Config>
+	<Config name="TestResultPath" value="./testReports/xml"></Config>
+	<Config name="LibFolderPath" value="./lib"></Config>
+	<Config name="ChromeDriverExecutablePath" value="./src/main/resources/chromedriver.exe"></Config>
+	<Config name="IEEDRIVERPATH32Bit" value=".\\resources\\IEDriverServer32.exe"></Config> 
+	<Config name="IEEDRIVERPATH64bit" value=".\\resources\\IEDriverServer64.exe"></Config> 
+	<Config name="WebDriverCommandSwitch" value="webdriver_enable_native_events,--start-maximized,--ignore-certificate-errors"></Config>
+	<Config name="TestDataFilePath" value="./configuration/Testdata.xls"></Config>
+	<Config name="ExtentReports" value="./HTMLTestReports"></Config><Config name="AppURL" value="https://test.salesforce.com/"></Config>
+	<Config name="FeedsURL" value="https://workbench.developerforce.com/login.php"></Config> 
+	<Config name="defaultWaitTime" value="20"></Config> <!--When to Default wait time is 20 seconds -->
+	<Config name="BrowserType" value="chrome"></Config> <!--IE = iexplore , FireFox = firefox , Chrome = chrome , Safari = safari -->
+	<Config name="ElementWaitTime" value="40"></Config> <!-- ElementWaitTime = 40 seconds -->
+	<Config name="captureScreeLevel" value="STEP"></Config>
+	<Config name="sslEnabled" value="Yes"></Config>
+    <Config name="ScreenShotPath" value="./testReports/screenShots/"></Config>
+    <Config name="CaptureScreenShot" value="ALL"></Config> <!--When to capture screen shot for a step? PASS/FAIL/ALL -->
+    <Config name="screenshotFileType" value=".jpg"></Config>	
+	<Config name="applicationName" value="AHM"></Config>		
+	<Config name="applicationType" value="Web"></Config>		
+	<Config name="testEnvironment" value="Testing"></Config>
+	<Config name="buildID" value="NA"></Config>
+	<Config name="automationTool" value="Selenium"></Config>
+	<Config name="testResultPath" value="./HTMLTestReports"></Config>
+	<Config name="FeedsAppURL" value="https://workbench.developerforce.com/"></Config>
+	<Config name="outboundpath" value="./configuration/OutBoundFile.xlsx"></Config>
+	<Config name="inboundpath" value="./configuration/AZUS_inbound.xlsx"></Config>
+	
+  </TestEnvironment> 
+  
+  <WebServices>
+         <Config name="RequestFolderPath" value="./RequestXMLFiles/"></Config>
+         <Config name="webServicesHostName" value="NO"/>
+         <Config name="webServicesPort" value="NO"/>
+         <Config name="webServicesAuthentication" value="NO"/>
+         <Config name="webServicesUserKey" value="NO"/>
+         <Config name="webServicesPasswordKey" value="NO"/>
+         <Config name="webServicesUser" value="NO"/>
+         <Config name="webServicesPassword" value="NO"/>
+  </WebServices>
+  
+  <RestServices>
+        <Config name="RestServicesAuthentication" value="NO"/>
+        <Config name="RestServicesUser" value="NO"/>
+        <Config name="RestServicesPassword" value="NO"/>
+  </RestServices>
+
+
+</FrameworkConfig>

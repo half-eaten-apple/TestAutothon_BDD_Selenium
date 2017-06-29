@@ -1,0 +1,938 @@
+2016-10-10 19:40:08 INFO   Common Automation Framework :? - ================================ TEST STARTS NOW =========================================
+2016-10-10 19:40:08 INFO  SetupSelenium:58 - User had specified [WebDriverCommandSwitch] command switch for Chrome Browser
+2016-10-10 19:40:11 INFO  SetupSelenium:68 - Started Google Chrome Driver with command switches successfully
+2016-10-10 19:40:15 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//*[@id='username']]
+2016-10-10 19:40:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//*[@id='username']]
+2016-10-10 19:40:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//*[@id='username']]
+2016-10-10 19:40:18 INFO  ElementImpl:56 - Element element: USER_NAME_TF loaded
+2016-10-10 19:40:18 INFO  ElementImpl:56 - TextField element: USER_NAME_TF set text successfully
+2016-10-10 19:40:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//*[@id='password']]
+2016-10-10 19:40:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//*[@id='password']]
+2016-10-10 19:40:18 INFO  ElementImpl:56 - Element element: PASSWORD_TF loaded
+2016-10-10 19:40:18 INFO  ElementImpl:56 - TextField element: PASSWORD_TF set text successfully
+2016-10-10 19:40:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//*[@id='Login']]
+2016-10-10 19:40:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//*[@id='Login']]
+2016-10-10 19:40:19 INFO  ElementImpl:56 - Element element: LOGIN_BTN loaded
+2016-10-10 19:40:19 INFO  ElementImpl:56 - Button element: LOGIN_BTN clicked
+2016-10-10 19:40:19 INFO   Common Automation Framework :? - Logged into successfully
+2016-10-10 19:40:24 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@4b25b707
+2016-10-10 19:40:32 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//a[contains(text(),'Interactions')]]
+2016-10-10 19:40:32 INFO  ElementImpl:56 - Element element: INTERACTION_NEW_TAB_LNK loaded
+2016-10-10 19:40:32 INFO  ElementImpl:56 - HyperLink element: INTERACTION_NEW_TAB_LNK clicked
+2016-10-10 19:40:34 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> css selector: input.btn[name='new']]
+2016-10-10 19:40:34 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> css selector: input.btn[name='new']]
+2016-10-10 19:40:41 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:40:41 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:40:45 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:40:45 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:40:45 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_INTERACTION_CATEGORY_DD loaded
+2016-10-10 19:40:45 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_INTERACTION_CATEGORY_DD selected
+2016-10-10 19:40:45 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:40:45 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:40:45 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_INTERACTION_TYPE_DD loaded
+2016-10-10 19:40:46 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_INTERACTION_TYPE_DD selected
+2016-10-10 19:40:46 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:40:46 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:40:46 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_INTERACTION_TYPE_DD loaded
+2016-10-10 19:40:46 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_INTERACTION_TYPE_DD selected
+2016-10-10 19:40:48 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:40:48 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:40:48 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_LOCATION_TYPE_DD loaded
+2016-10-10 19:40:48 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:40:48 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_LOCATION_TYPE_DD loaded
+2016-10-10 19:40:48 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_LOCATION_TYPE_DD selected
+2016-10-10 19:40:48 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_LOCATION_TYPE_DD selected
+2016-10-10 19:40:48 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: (//*[text()[contains(.,'Start Date')]]//parent::th/following-sibling::td//input)[1]]
+2016-10-10 19:40:48 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: (//*[text()[contains(.,'Start Date')]]//parent::th/following-sibling::td//input)[1]]
+2016-10-10 19:40:48 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_START_DATE_TF loaded
+2016-10-10 19:40:48 INFO  ElementImpl:56 - TextField element: NEW_INTERACTION_START_DATE_TF set text successfully
+2016-10-10 19:40:48 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Start Time')]]//parent::th//following-sibling::td//select]
+2016-10-10 19:40:48 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Start Time')]]//parent::th//following-sibling::td//select]
+2016-10-10 19:40:48 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_START_TIME_DD loaded
+2016-10-10 19:40:48 INFO  ElementImpl:56 - TextField element: NEW_INTERACTION_START_TIME_DD set text successfully
+2016-10-10 19:40:48 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: (//*[text()[contains(.,'End Date')]]//parent::th/following-sibling::td//input)[1]]
+2016-10-10 19:40:49 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: (//*[text()[contains(.,'End Date')]]//parent::th/following-sibling::td//input)[1]]
+2016-10-10 19:40:49 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_END_DATE_TF loaded
+2016-10-10 19:40:49 INFO  ElementImpl:56 - TextField element: NEW_INTERACTION_END_DATE_TF set text successfully
+2016-10-10 19:40:49 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:40:49 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:40:49 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_SAVE_BTN loaded
+2016-10-10 19:40:49 INFO  ElementImpl:56 - Button element: NEW_INTERACTION_SAVE_BTN clicked
+2016-10-10 19:40:49 INFO   Common Automation Framework :? - New interaction created
+2016-10-10 19:40:54 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@11655d63
+2016-10-10 19:40:54 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: (//*[text()[contains(.,'Interaction Product Topics')]]//parent::a)[1]]
+2016-10-10 19:40:54 INFO  ElementImpl:56 - Element element: INTERACTIONPRODUCTTOPICS loaded
+2016-10-10 19:40:54 INFO  ElementImpl:56 - HyperLink element: INTERACTIONPRODUCTTOPICS clicked
+2016-10-10 19:40:54 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@name='ahm__newproducttopic']]
+2016-10-10 19:40:55 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@name='ahm__newproducttopic']]
+2016-10-10 19:40:55 INFO  ElementImpl:56 - Element element: PRODUCTTOPICNEWPRODUCTTOPIC loaded
+2016-10-10 19:40:55 INFO  ElementImpl:56 - Button element: PRODUCTTOPICNEWPRODUCTTOPIC clicked
+2016-10-10 19:40:58 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:40:58 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:40:58 INFO  ElementImpl:56 - Element element: PRODUCTTOPICAHMPRODUCT loaded
+2016-10-10 19:40:58 INFO  ElementImpl:56 - DropDown Element: PRODUCTTOPICAHMPRODUCT selected
+2016-10-10 19:40:58 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:40:58 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:40:58 INFO  ElementImpl:56 - Element element: PRODUCTTOPICAHMPRODUCT loaded
+2016-10-10 19:40:58 INFO  ElementImpl:56 - DropDown Element: PRODUCTTOPICAHMPRODUCT selected
+2016-10-10 19:40:58 INFO  BusinessFunctions:55 - Selected 1 checkboxes
+2016-10-10 19:40:58 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: (//input[@value='Save and Continue'])[1]]
+2016-10-10 19:40:58 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: (//input[@value='Save and Continue'])[1]]
+2016-10-10 19:40:58 INFO  ElementImpl:56 - Element element: PRODUCTTOPICSAVEANDCONTINUE loaded
+2016-10-10 19:40:58 INFO  ElementImpl:56 - Button element: PRODUCTTOPICSAVEANDCONTINUE clicked
+2016-10-10 19:40:58 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: (//input[@value='Save'])[1]]
+2016-10-10 19:40:59 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: (//input[@value='Save'])[1]]
+2016-10-10 19:40:59 INFO  ElementImpl:56 - Element element: PRODUCTTOPICSAVE loaded
+2016-10-10 19:40:59 INFO  ElementImpl:56 - Button element: PRODUCTTOPICSAVE clicked
+2016-10-10 19:40:59 INFO   Common Automation Framework :? - Added product topic
+2016-10-10 19:41:05 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //a/span[text()='Locations']]
+2016-10-10 19:41:08 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //a/span[text()='Locations']]
+2016-10-10 19:41:08 INFO  ElementImpl:56 - Element element: NEWLOCATIONTAB loaded
+2016-10-10 19:41:08 INFO  ElementImpl:56 - Button element: NEWLOCATIONTAB clicked
+2016-10-10 19:41:08 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@title='New Location']]
+2016-10-10 19:41:08 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@title='New Location']]
+2016-10-10 19:41:08 INFO  ElementImpl:56 - Element element: NEWLOCATIONBUTTON loaded
+2016-10-10 19:41:08 INFO  ElementImpl:56 - Button element: NEWLOCATIONBUTTON clicked
+2016-10-10 19:41:13 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Search' and @class='btn']]
+2016-10-10 19:41:13 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Search' and @class='btn']]
+2016-10-10 19:41:18 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@47fc9ac0
+2016-10-10 19:41:28 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Location Priority')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:41:28 INFO  ElementImpl:56 - Element element: LOCATIONPRIORITY loaded
+2016-10-10 19:41:28 INFO  ElementImpl:56 - DropDown Element: LOCATIONPRIORITY selected
+2016-10-10 19:41:29 INFO  BusinessFunctions:55 - Selected 2 checkboxes
+2016-10-10 19:41:29 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:29 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:29 INFO  ElementImpl:56 - Element element: ADDLOCATIONANDCONTINUE loaded
+2016-10-10 19:41:29 INFO  ElementImpl:56 - Button element: ADDLOCATIONANDCONTINUE clicked
+2016-10-10 19:41:29 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:31 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:32 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:33 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:34 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:36 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:37 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:38 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:39 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:40 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:41 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:42 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:43 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:43 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:43 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Location Priority')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:41:43 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Location Priority')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:41:44 INFO  ElementImpl:56 - Element element: LOCATIONPRIORITY loaded
+2016-10-10 19:41:44 INFO  ElementImpl:56 - DropDown Element: LOCATIONPRIORITY selected
+2016-10-10 19:41:44 INFO  BusinessFunctions:55 - Selected 1 checkboxes
+2016-10-10 19:41:44 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:44 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:41:45 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Close' and @class='btn']]
+2016-10-10 19:41:45 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Location & Close' and @class='btn']]
+2016-10-10 19:41:45 INFO  ElementImpl:56 - Element element: ADDLOCATIONANDCLOSE loaded
+2016-10-10 19:41:45 INFO  ElementImpl:56 - Button element: ADDLOCATIONANDCLOSE clicked
+2016-10-10 19:41:48 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@19cf4902
+2016-10-10 19:41:50 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //a/span[text()='Locations']]
+2016-10-10 19:41:50 INFO  ElementImpl:56 - Element element: NEWLOCATIONTAB loaded
+2016-10-10 19:41:50 INFO   Common Automation Framework :? - Added new location
+2016-10-10 19:41:50 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //a/span[text()='Participants']]
+2016-10-10 19:41:50 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //a/span[text()='Participants']]
+2016-10-10 19:41:50 INFO  ElementImpl:56 - Element element: PARTICIPANTSTAB loaded
+2016-10-10 19:41:50 INFO  ElementImpl:56 - Button element: PARTICIPANTSTAB clicked
+2016-10-10 19:41:50 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='New Employee']]
+2016-10-10 19:41:51 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='New Employee']]
+2016-10-10 19:41:51 INFO  ElementImpl:56 - Element element: NEWEMPLOYEETAB loaded
+2016-10-10 19:41:51 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='New HCPs']]
+2016-10-10 19:41:51 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='New HCPs']]
+2016-10-10 19:41:51 INFO  ElementImpl:56 - Element element: NEWHCPTAB loaded
+2016-10-10 19:41:51 INFO  ElementImpl:56 - Button element: NEWHCPTAB clicked
+2016-10-10 19:41:54 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> css selector: .detailList .requiredInput select]
+2016-10-10 19:41:54 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> css selector: .detailList .requiredInput select]
+2016-10-10 19:41:54 INFO  ElementImpl:56 - Element element: NEWHCPPAGEPARTICIPANTROLE loaded
+2016-10-10 19:41:54 INFO  ElementImpl:56 - DropDown Element: NEWHCPPAGEPARTICIPANTROLE selected
+2016-10-10 19:41:54 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //label[text()[contains(.,'Topics')]]/parent::th/following-sibling::td/select/option]
+2016-10-10 19:41:54 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //label[text()[contains(.,'Topics')]]/parent::th/following-sibling::td/select/option]
+2016-10-10 19:41:54 INFO  ElementImpl:56 - Element element: SELECTINTERACTIONPRODUCTTOPIC loaded
+2016-10-10 19:41:54 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //label[text()[contains(.,'Topics')]]/parent::th/following-sibling::td/select/option]
+2016-10-10 19:41:54 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //label[text()[contains(.,'Topics')]]/parent::th/following-sibling::td/select/option]
+2016-10-10 19:41:54 INFO  ElementImpl:56 - Element element: SELECTINTERACTIONPRODUCTTOPIC loaded
+2016-10-10 19:41:55 INFO  ElementImpl:56 - Button element: SELECTINTERACTIONPRODUCTTOPIC clicked
+2016-10-10 19:41:55 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input]
+2016-10-10 19:41:55 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input]
+2016-10-10 19:41:55 INFO  ElementImpl:56 - Element element: NEWHCPPAGESEARCH loaded
+2016-10-10 19:41:55 INFO  ElementImpl:56 - Button element: NEWHCPPAGESEARCH clicked
+2016-10-10 19:41:57 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Participant & Close']]
+2016-10-10 19:41:57 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Participant & Close']]
+2016-10-10 19:41:57 INFO  ElementImpl:56 - Element element: ADDPARTICPANTANDCLOSE loaded
+2016-10-10 19:41:58 INFO  BusinessFunctions:55 - Selected 1 checkboxes
+2016-10-10 19:41:58 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Participant & Close']]
+2016-10-10 19:41:58 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Participant & Close']]
+2016-10-10 19:41:58 INFO  ElementImpl:56 - Element element: ADDPARTICPANTANDCLOSE loaded
+2016-10-10 19:41:58 INFO  ElementImpl:56 - Button element: ADDPARTICPANTANDCLOSE clicked
+2016-10-10 19:42:01 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@4b52434e
+2016-10-10 19:42:01 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//*[@id='topButtonRow']/input[1]]
+2016-10-10 19:42:02 INFO  ElementImpl:56 - Element element: INTERACTIONEDIT loaded
+2016-10-10 19:42:03 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //a/span[text()='Participants']]
+2016-10-10 19:42:04 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //a/span[text()='Participants']]
+2016-10-10 19:42:04 INFO  ElementImpl:56 - Element element: PARTICIPANTSTAB loaded
+2016-10-10 19:42:04 INFO  ElementImpl:56 - Button element: PARTICIPANTSTAB clicked
+2016-10-10 19:42:04 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@name='ahm__search_employee']]
+2016-10-10 19:42:04 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@name='ahm__search_employee']]
+2016-10-10 19:42:04 INFO  ElementImpl:56 - Element element: NEWEMPLOYEEBUTTON loaded
+2016-10-10 19:42:04 INFO  ElementImpl:56 - Button element: NEWEMPLOYEEBUTTON clicked
+2016-10-10 19:42:07 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> css selector: .detailList .requiredInput select]
+2016-10-10 19:42:07 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> css selector: .detailList .requiredInput select]
+2016-10-10 19:42:07 INFO  ElementImpl:56 - Element element: NEWHCPPAGEPARTICIPANTROLE loaded
+2016-10-10 19:42:07 INFO  ElementImpl:56 - DropDown Element: NEWHCPPAGEPARTICIPANTROLE selected
+2016-10-10 19:42:07 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input]
+2016-10-10 19:42:07 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input]
+2016-10-10 19:42:07 INFO  ElementImpl:56 - Element element: NEWHCPPAGESEARCH loaded
+2016-10-10 19:42:07 INFO  ElementImpl:56 - Button element: NEWHCPPAGESEARCH clicked
+2016-10-10 19:42:12 ERROR BusinessFunctions:29 - Check the Header of the table/Rows, might be having zero values
+2016-10-10 19:42:17 INFO  BusinessFunctions:55 - Selected 4 checkboxes
+2016-10-10 19:42:17 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Participant & Close']]
+2016-10-10 19:42:17 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Add Participant & Close']]
+2016-10-10 19:42:17 INFO  ElementImpl:56 - Element element: ADDPARTICPANTANDCLOSE loaded
+2016-10-10 19:42:17 INFO  ElementImpl:56 - Button element: ADDPARTICPANTANDCLOSE clicked
+2016-10-10 19:42:23 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@755409b9
+2016-10-10 19:42:25 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //a/span[text()='Locations']]
+2016-10-10 19:42:25 INFO  ElementImpl:56 - Element element: com.epam.pageElements.LocationPageObjects.NEWLOCATIONTAB loaded
+2016-10-10 19:42:25 INFO   Common Automation Framework :? - Created new participant
+2016-10-10 19:42:25 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //span[@class='listTitle' and text()='Logistic Needs']]
+2016-10-10 19:42:25 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //span[@class='listTitle' and text()='Logistic Needs']]
+2016-10-10 19:42:25 INFO  ElementImpl:56 - Element element: NEWLOGISTICTAB loaded
+2016-10-10 19:42:25 INFO  ElementImpl:56 - Button element: NEWLOGISTICTAB clicked
+2016-10-10 19:42:25 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='New Logistic Need']]
+2016-10-10 19:42:25 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='New Logistic Need']]
+2016-10-10 19:42:25 INFO  ElementImpl:56 - Element element: NEWLOGISTICNEED loaded
+2016-10-10 19:42:25 INFO  ElementImpl:56 - Button element: NEWLOGISTICNEED clicked
+2016-10-10 19:42:28 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]
+2016-10-10 19:42:28 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]
+2016-10-10 19:42:28 INFO  ElementImpl:56 - Element element: DRPLOGISTICNEED loaded
+2016-10-10 19:42:28 INFO  ElementImpl:56 - DropDown Element: DRPLOGISTICNEED selected
+2016-10-10 19:42:29 INFO  BusinessFunctions:55 - Selected 2 checkboxes
+2016-10-10 19:42:29 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Save&New']]
+2016-10-10 19:42:30 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Save&New']]
+2016-10-10 19:42:30 INFO  ElementImpl:56 - Element element: NEWLOGISTICSNEEDPAGESAVEANDNEW loaded
+2016-10-10 19:42:30 INFO  ElementImpl:56 - Button element: NEWLOGISTICSNEEDPAGESAVEANDNEW clicked
+2016-10-10 19:42:32 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]
+2016-10-10 19:42:32 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]
+2016-10-10 19:42:32 INFO  ElementImpl:56 - Element element: DRPLOGISTICNEED loaded
+2016-10-10 19:42:32 INFO  ElementImpl:56 - DropDown Element: DRPLOGISTICNEED selected
+2016-10-10 19:42:33 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//input[@value = 'Add Row']]
+2016-10-10 19:42:33 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//input[@value = 'Add Row']]
+2016-10-10 19:42:33 INFO  ElementImpl:56 - Element element: NEWLOGISTICSADDROW loaded
+2016-10-10 19:42:33 INFO  ElementImpl:56 - Button element: NEWLOGISTICSADDROW clicked
+2016-10-10 19:42:33 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]
+2016-10-10 19:42:33 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]
+2016-10-10 19:42:33 INFO  ElementImpl:56 - Element element: DRPLOGISTICNEED loaded
+2016-10-10 19:42:34 INFO  ElementImpl:56 - DropDown Element: DRPLOGISTICNEED selected
+2016-10-10 19:42:34 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Delete')]]/parent::td/following-sibling::td[2]/descendant::input]
+2016-10-10 19:42:34 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Delete')]]/parent::td/following-sibling::td[2]/descendant::input]
+2016-10-10 19:42:34 INFO  ElementImpl:56 - Element element: NEWLOGISTICSESTCOUNT loaded
+2016-10-10 19:42:34 INFO  ElementImpl:56 - TextField element: NEWLOGISTICSESTCOUNT set text successfully
+2016-10-10 19:42:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//*[@id='j_id0:logisticsId:fmvcomponents:pbTable:0:targetName']]
+2016-10-10 19:42:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//*[@id='j_id0:logisticsId:fmvcomponents:pbTable:0:targetName']]
+2016-10-10 19:42:35 INFO  ElementImpl:56 - Element element: NEWLOGISTICSVENDORNAME loaded
+2016-10-10 19:42:35 INFO  ElementImpl:56 - TextField element: NEWLOGISTICSVENDORNAME set text successfully
+2016-10-10 19:42:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Logistic Provider')]]/ancestor::thead/following-sibling::tbody/tr/td[7]/select]
+2016-10-10 19:42:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Logistic Provider')]]/ancestor::thead/following-sibling::tbody/tr/td[7]/select]
+2016-10-10 19:42:35 INFO  ElementImpl:56 - Element element: LOGISTICPROVIDER loaded
+2016-10-10 19:42:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Logistic Provider')]]/ancestor::thead/following-sibling::tbody/tr/td[7]/select]
+2016-10-10 19:42:35 INFO  ElementImpl:56 - Element element: LOGISTICPROVIDER loaded
+2016-10-10 19:42:35 INFO  ElementImpl:56 - DropDown Element: LOGISTICPROVIDER selected
+2016-10-10 19:42:35 INFO  ElementImpl:56 - DropDown Element: LOGISTICPROVIDER selected
+2016-10-10 19:42:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Save']]
+2016-10-10 19:42:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Save']]
+2016-10-10 19:42:35 INFO  ElementImpl:56 - Element element: NEWLOGISTICSNEEDPAGESAVE loaded
+2016-10-10 19:42:35 INFO  ElementImpl:56 - Button element: NEWLOGISTICSNEEDPAGESAVE clicked
+2016-10-10 19:42:35 INFO   Common Automation Framework :? - Created new logistics.
+2016-10-10 19:42:40 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //a/span[text()='Estimates']]
+2016-10-10 19:42:40 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //a/span[text()='Estimates']]
+2016-10-10 19:42:41 INFO  ElementImpl:56 - Element element: NEWESTESTIMATETAB loaded
+2016-10-10 19:42:41 INFO  ElementImpl:56 - Button element: NEWESTESTIMATETAB clicked
+2016-10-10 19:42:41 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@title='New Estimate']]
+2016-10-10 19:42:41 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@title='New Estimate']]
+2016-10-10 19:42:41 INFO  ElementImpl:56 - Element element: NEWESTNEWESTIMATE loaded
+2016-10-10 19:42:41 INFO  ElementImpl:56 - Button element: NEWESTNEWESTIMATE clicked
+2016-10-10 19:42:42 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@33951b24
+2016-10-10 19:42:42 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]
+2016-10-10 19:42:42 INFO  ElementImpl:56 - Element element: NEWESTSPENDTYPE loaded
+2016-10-10 19:42:42 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]
+2016-10-10 19:42:42 INFO  ElementImpl:56 - Element element: NEWESTSPENDTYPE loaded
+2016-10-10 19:42:43 INFO  ElementImpl:56 - DropDown Element: NEWESTSPENDTYPE selected
+2016-10-10 19:42:43 INFO  ElementImpl:56 - DropDown Element: NEWESTSPENDTYPE selected
+2016-10-10 19:42:43 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'dataCol')]/input]
+2016-10-10 19:42:43 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'dataCol')]/input]
+2016-10-10 19:42:43 INFO  ElementImpl:56 - Element element: NEWESTAMOUNT loaded
+2016-10-10 19:42:43 INFO  ElementImpl:56 - TextField element: NEWESTAMOUNT set text successfully
+2016-10-10 19:42:43 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]
+2016-10-10 19:42:43 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]
+2016-10-10 19:42:43 INFO  ElementImpl:56 - Element element: NEWESTSAVE loaded
+2016-10-10 19:42:43 INFO  ElementImpl:56 - Button element: NEWESTSAVE clicked
+2016-10-10 19:42:43 INFO   Common Automation Framework :? - Created new estimate
+2016-10-10 19:42:45 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]
+2016-10-10 19:42:45 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]
+2016-10-10 19:42:45 INFO  ElementImpl:56 - Element element: CreatedInteractionName loaded
+2016-10-10 19:42:45 INFO  ElementImpl:56 - Button element: CreatedInteractionName clicked
+2016-10-10 19:42:46 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@3218eaa5
+2016-10-10 19:42:47 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Validate']]
+2016-10-10 19:42:47 INFO  ElementImpl:56 - Element element: VALIDATE_BTN loaded
+2016-10-10 19:42:47 INFO  ElementImpl:56 - Button element: VALIDATE_BTN clicked
+2016-10-10 19:42:52 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Interaction validated successfully')]]]
+2016-10-10 19:42:52 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Interaction validated successfully')]]]
+2016-10-10 19:42:52 INFO  ElementImpl:56 - Element element: INTERACTION_VALIDATION_LBL loaded
+2016-10-10 19:42:52 INFO  ElementImpl:56 - Label Element: INTERACTION_VALIDATION_LBL returned label
+2016-10-10 19:42:52 INFO  InteractionPage:49 - Interaction validated successfully
+2016-10-10 19:42:52 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Submit for Approval']]
+2016-10-10 19:42:52 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@value='Submit for Approval']]
+2016-10-10 19:42:52 INFO  ElementImpl:56 - Element element: INTERACTION_SUBMIT_FOR_APPROVAL_BTN loaded
+2016-10-10 19:42:52 INFO  ElementImpl:56 - Alert pop-up element: INTERACTION_SUBMIT_FOR_APPROVAL_BTN clicked successfully
+2016-10-10 19:42:52 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@name='edit']]
+2016-10-10 19:42:53 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //input[@name='edit']]
+2016-10-10 19:42:53 INFO  ElementImpl:56 - Element element: INTERACTION_EDIT_BTN loaded
+2016-10-10 19:42:53 INFO  ElementImpl:56 - Button element: INTERACTION_EDIT_BTN clicked
+2016-10-10 19:42:55 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:42:55 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:42:55 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_SAVE_BTN loaded
+2016-10-10 19:42:55 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:42:55 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:42:55 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_STATUS_DD loaded
+2016-10-10 19:42:56 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_STATUS_DD selected
+2016-10-10 19:42:56 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:42:57 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (b7841b537eb29077a3c5926189bad3eb)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:42:57 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_STATUS_DD loaded
+2016-10-10 19:43:02 ERROR InteractionPage:77 - Failed to update accept status interaction org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Accepted
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'hyd-vsharma1', ip: '172.16.102.86', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+2016-10-10 19:43:02 ERROR  Common Automation Framework :? - com.epam.utils.FrameworkExceptions: Failed in interactionStatusAccepted() method of InteractionPage class
+2016-10-10 19:43:03 INFO   Common Automation Framework :? - ================================ TEST ENDS =========================================
+2016-10-10 19:43:03 INFO   Common Automation Framework :? - ************************************************************************************
+2016-10-10 19:46:35 INFO   Common Automation Framework :? - ================================ TEST STARTS NOW =========================================
+2016-10-10 19:46:35 INFO  SetupSelenium:58 - User had specified [WebDriverCommandSwitch] command switch for Chrome Browser
+2016-10-10 19:46:37 INFO  SetupSelenium:68 - Started Google Chrome Driver with command switches successfully
+2016-10-10 19:46:41 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//*[@id='username']]
+2016-10-10 19:46:44 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//*[@id='username']]
+2016-10-10 19:46:44 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//*[@id='username']]
+2016-10-10 19:46:44 INFO  ElementImpl:56 - Element element: USER_NAME_TF loaded
+2016-10-10 19:46:44 INFO  ElementImpl:56 - TextField element: USER_NAME_TF set text successfully
+2016-10-10 19:46:44 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//*[@id='password']]
+2016-10-10 19:46:44 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//*[@id='password']]
+2016-10-10 19:46:44 INFO  ElementImpl:56 - Element element: PASSWORD_TF loaded
+2016-10-10 19:46:44 INFO  ElementImpl:56 - TextField element: PASSWORD_TF set text successfully
+2016-10-10 19:46:44 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//*[@id='Login']]
+2016-10-10 19:46:44 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//*[@id='Login']]
+2016-10-10 19:46:44 INFO  ElementImpl:56 - Element element: LOGIN_BTN loaded
+2016-10-10 19:46:44 INFO  ElementImpl:56 - Button element: LOGIN_BTN clicked
+2016-10-10 19:46:44 INFO   Common Automation Framework :? - Logged into successfully
+2016-10-10 19:46:51 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@594b6f3b
+2016-10-10 19:46:58 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//a[contains(text(),'Interactions')]]
+2016-10-10 19:46:58 INFO  ElementImpl:56 - Element element: INTERACTION_NEW_TAB_LNK loaded
+2016-10-10 19:46:58 INFO  ElementImpl:56 - HyperLink element: INTERACTION_NEW_TAB_LNK clicked
+2016-10-10 19:47:00 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> css selector: input.btn[name='new']]
+2016-10-10 19:47:00 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> css selector: input.btn[name='new']]
+2016-10-10 19:47:08 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:08 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:11 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:11 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:11 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_INTERACTION_CATEGORY_DD loaded
+2016-10-10 19:47:11 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_INTERACTION_CATEGORY_DD selected
+2016-10-10 19:47:11 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:11 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:12 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_INTERACTION_TYPE_DD loaded
+2016-10-10 19:47:14 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_INTERACTION_TYPE_DD selected
+2016-10-10 19:47:14 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:14 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:14 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_INTERACTION_TYPE_DD loaded
+2016-10-10 19:47:14 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_INTERACTION_TYPE_DD selected
+2016-10-10 19:47:15 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:15 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:16 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_LOCATION_TYPE_DD loaded
+2016-10-10 19:47:16 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:16 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_LOCATION_TYPE_DD loaded
+2016-10-10 19:47:16 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_LOCATION_TYPE_DD selected
+2016-10-10 19:47:16 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_LOCATION_TYPE_DD selected
+2016-10-10 19:47:16 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (//*[text()[contains(.,'Start Date')]]//parent::th/following-sibling::td//input)[1]]
+2016-10-10 19:47:16 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (//*[text()[contains(.,'Start Date')]]//parent::th/following-sibling::td//input)[1]]
+2016-10-10 19:47:16 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_START_DATE_TF loaded
+2016-10-10 19:47:16 INFO  ElementImpl:56 - TextField element: NEW_INTERACTION_START_DATE_TF set text successfully
+2016-10-10 19:47:16 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Start Time')]]//parent::th//following-sibling::td//select]
+2016-10-10 19:47:16 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Start Time')]]//parent::th//following-sibling::td//select]
+2016-10-10 19:47:16 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_START_TIME_DD loaded
+2016-10-10 19:47:16 INFO  ElementImpl:56 - TextField element: NEW_INTERACTION_START_TIME_DD set text successfully
+2016-10-10 19:47:16 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (//*[text()[contains(.,'End Date')]]//parent::th/following-sibling::td//input)[1]]
+2016-10-10 19:47:16 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (//*[text()[contains(.,'End Date')]]//parent::th/following-sibling::td//input)[1]]
+2016-10-10 19:47:16 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_END_DATE_TF loaded
+2016-10-10 19:47:17 INFO  ElementImpl:56 - TextField element: NEW_INTERACTION_END_DATE_TF set text successfully
+2016-10-10 19:47:17 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:47:17 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:47:17 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_SAVE_BTN loaded
+2016-10-10 19:47:17 INFO  ElementImpl:56 - Button element: NEW_INTERACTION_SAVE_BTN clicked
+2016-10-10 19:47:17 INFO   Common Automation Framework :? - New interaction created
+2016-10-10 19:47:22 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@12f4818
+2016-10-10 19:47:22 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (//*[text()[contains(.,'Interaction Product Topics')]]//parent::a)[1]]
+2016-10-10 19:47:22 INFO  ElementImpl:56 - Element element: INTERACTIONPRODUCTTOPICS loaded
+2016-10-10 19:47:22 INFO  ElementImpl:56 - HyperLink element: INTERACTIONPRODUCTTOPICS clicked
+2016-10-10 19:47:22 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@name='ahm__newproducttopic']]
+2016-10-10 19:47:23 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@name='ahm__newproducttopic']]
+2016-10-10 19:47:23 INFO  ElementImpl:56 - Element element: PRODUCTTOPICNEWPRODUCTTOPIC loaded
+2016-10-10 19:47:23 INFO  ElementImpl:56 - Button element: PRODUCTTOPICNEWPRODUCTTOPIC clicked
+2016-10-10 19:47:26 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:26 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:26 INFO  ElementImpl:56 - Element element: PRODUCTTOPICAHMPRODUCT loaded
+2016-10-10 19:47:26 INFO  ElementImpl:56 - DropDown Element: PRODUCTTOPICAHMPRODUCT selected
+2016-10-10 19:47:26 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:26 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:26 INFO  ElementImpl:56 - Element element: PRODUCTTOPICAHMPRODUCT loaded
+2016-10-10 19:47:26 INFO  ElementImpl:56 - DropDown Element: PRODUCTTOPICAHMPRODUCT selected
+2016-10-10 19:47:26 INFO  BusinessFunctions:55 - Selected 1 checkboxes
+2016-10-10 19:47:26 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (//input[@value='Save and Continue'])[1]]
+2016-10-10 19:47:26 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (//input[@value='Save and Continue'])[1]]
+2016-10-10 19:47:26 INFO  ElementImpl:56 - Element element: PRODUCTTOPICSAVEANDCONTINUE loaded
+2016-10-10 19:47:27 INFO  ElementImpl:56 - Button element: PRODUCTTOPICSAVEANDCONTINUE clicked
+2016-10-10 19:47:27 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (//input[@value='Save'])[1]]
+2016-10-10 19:47:27 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (//input[@value='Save'])[1]]
+2016-10-10 19:47:27 INFO  ElementImpl:56 - Element element: PRODUCTTOPICSAVE loaded
+2016-10-10 19:47:27 INFO  ElementImpl:56 - Button element: PRODUCTTOPICSAVE clicked
+2016-10-10 19:47:27 INFO   Common Automation Framework :? - Added product topic
+2016-10-10 19:47:32 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@78f382b0
+2016-10-10 19:47:39 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a/span[text()='Locations']]
+2016-10-10 19:47:39 INFO  ElementImpl:56 - Element element: NEWLOCATIONTAB loaded
+2016-10-10 19:47:39 INFO  ElementImpl:56 - Button element: NEWLOCATIONTAB clicked
+2016-10-10 19:47:39 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='New Location']]
+2016-10-10 19:47:39 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='New Location']]
+2016-10-10 19:47:39 INFO  ElementImpl:56 - Element element: NEWLOCATIONBUTTON loaded
+2016-10-10 19:47:39 INFO  ElementImpl:56 - Button element: NEWLOCATIONBUTTON clicked
+2016-10-10 19:47:44 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Search' and @class='btn']]
+2016-10-10 19:47:44 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Search' and @class='btn']]
+2016-10-10 19:47:49 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@2ab15d02
+2016-10-10 19:47:56 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Location Priority')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:47:56 INFO  ElementImpl:56 - Element element: LOCATIONPRIORITY loaded
+2016-10-10 19:47:56 INFO  ElementImpl:56 - DropDown Element: LOCATIONPRIORITY selected
+2016-10-10 19:47:57 INFO  BusinessFunctions:55 - Selected 2 checkboxes
+2016-10-10 19:47:57 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:47:57 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:47:57 INFO  ElementImpl:56 - Element element: ADDLOCATIONANDCONTINUE loaded
+2016-10-10 19:47:58 INFO  ElementImpl:56 - Button element: ADDLOCATIONANDCONTINUE clicked
+2016-10-10 19:47:58 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:47:59 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:48:00 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:48:01 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:48:02 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:48:03 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:48:04 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:48:06 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:48:07 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:48:08 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:48:09 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:48:10 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:48:11 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:48:11 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:48:11 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Location Priority')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:48:11 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Location Priority')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:48:11 INFO  ElementImpl:56 - Element element: LOCATIONPRIORITY loaded
+2016-10-10 19:48:11 INFO  ElementImpl:56 - DropDown Element: LOCATIONPRIORITY selected
+2016-10-10 19:48:12 INFO  BusinessFunctions:55 - Selected 1 checkboxes
+2016-10-10 19:48:12 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:48:12 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]
+2016-10-10 19:48:12 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Close' and @class='btn']]
+2016-10-10 19:48:12 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Location & Close' and @class='btn']]
+2016-10-10 19:48:12 INFO  ElementImpl:56 - Element element: ADDLOCATIONANDCLOSE loaded
+2016-10-10 19:48:12 INFO  ElementImpl:56 - Button element: ADDLOCATIONANDCLOSE clicked
+2016-10-10 19:48:16 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@187e7188
+2016-10-10 19:48:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a/span[text()='Locations']]
+2016-10-10 19:48:18 INFO  ElementImpl:56 - Element element: NEWLOCATIONTAB loaded
+2016-10-10 19:48:18 INFO   Common Automation Framework :? - Added new location
+2016-10-10 19:48:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a/span[text()='Participants']]
+2016-10-10 19:48:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a/span[text()='Participants']]
+2016-10-10 19:48:18 INFO  ElementImpl:56 - Element element: PARTICIPANTSTAB loaded
+2016-10-10 19:48:18 INFO  ElementImpl:56 - Button element: PARTICIPANTSTAB clicked
+2016-10-10 19:48:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='New Employee']]
+2016-10-10 19:48:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='New Employee']]
+2016-10-10 19:48:18 INFO  ElementImpl:56 - Element element: NEWEMPLOYEETAB loaded
+2016-10-10 19:48:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='New HCPs']]
+2016-10-10 19:48:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='New HCPs']]
+2016-10-10 19:48:18 INFO  ElementImpl:56 - Element element: NEWHCPTAB loaded
+2016-10-10 19:48:18 INFO  ElementImpl:56 - Button element: NEWHCPTAB clicked
+2016-10-10 19:48:22 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> css selector: .detailList .requiredInput select]
+2016-10-10 19:48:22 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> css selector: .detailList .requiredInput select]
+2016-10-10 19:48:22 INFO  ElementImpl:56 - Element element: NEWHCPPAGEPARTICIPANTROLE loaded
+2016-10-10 19:48:22 INFO  ElementImpl:56 - DropDown Element: NEWHCPPAGEPARTICIPANTROLE selected
+2016-10-10 19:48:22 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()[contains(.,'Topics')]]/parent::th/following-sibling::td/select/option]
+2016-10-10 19:48:22 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()[contains(.,'Topics')]]/parent::th/following-sibling::td/select/option]
+2016-10-10 19:48:22 INFO  ElementImpl:56 - Element element: SELECTINTERACTIONPRODUCTTOPIC loaded
+2016-10-10 19:48:22 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()[contains(.,'Topics')]]/parent::th/following-sibling::td/select/option]
+2016-10-10 19:48:22 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()[contains(.,'Topics')]]/parent::th/following-sibling::td/select/option]
+2016-10-10 19:48:22 INFO  ElementImpl:56 - Element element: SELECTINTERACTIONPRODUCTTOPIC loaded
+2016-10-10 19:48:22 INFO  ElementImpl:56 - Button element: SELECTINTERACTIONPRODUCTTOPIC clicked
+2016-10-10 19:48:22 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input]
+2016-10-10 19:48:22 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input]
+2016-10-10 19:48:22 INFO  ElementImpl:56 - Element element: NEWHCPPAGESEARCH loaded
+2016-10-10 19:48:23 INFO  ElementImpl:56 - Button element: NEWHCPPAGESEARCH clicked
+2016-10-10 19:48:25 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Participant & Close']]
+2016-10-10 19:48:25 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Participant & Close']]
+2016-10-10 19:48:25 INFO  ElementImpl:56 - Element element: ADDPARTICPANTANDCLOSE loaded
+2016-10-10 19:48:25 INFO  BusinessFunctions:55 - Selected 1 checkboxes
+2016-10-10 19:48:25 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Participant & Close']]
+2016-10-10 19:48:26 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Participant & Close']]
+2016-10-10 19:48:26 INFO  ElementImpl:56 - Element element: ADDPARTICPANTANDCLOSE loaded
+2016-10-10 19:48:26 INFO  ElementImpl:56 - Button element: ADDPARTICPANTANDCLOSE clicked
+2016-10-10 19:48:30 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//*[@id='topButtonRow']/input[1]]
+2016-10-10 19:48:30 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//*[@id='topButtonRow']/input[1]]
+2016-10-10 19:48:30 INFO  ElementImpl:56 - Element element: INTERACTIONEDIT loaded
+2016-10-10 19:48:31 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a/span[text()='Participants']]
+2016-10-10 19:48:31 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a/span[text()='Participants']]
+2016-10-10 19:48:31 INFO  ElementImpl:56 - Element element: PARTICIPANTSTAB loaded
+2016-10-10 19:48:31 INFO  ElementImpl:56 - Button element: PARTICIPANTSTAB clicked
+2016-10-10 19:48:31 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@name='ahm__search_employee']]
+2016-10-10 19:48:31 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@name='ahm__search_employee']]
+2016-10-10 19:48:31 INFO  ElementImpl:56 - Element element: NEWEMPLOYEEBUTTON loaded
+2016-10-10 19:48:31 INFO  ElementImpl:56 - Button element: NEWEMPLOYEEBUTTON clicked
+2016-10-10 19:48:33 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> css selector: .detailList .requiredInput select]
+2016-10-10 19:48:33 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> css selector: .detailList .requiredInput select]
+2016-10-10 19:48:33 INFO  ElementImpl:56 - Element element: NEWHCPPAGEPARTICIPANTROLE loaded
+2016-10-10 19:48:33 INFO  ElementImpl:56 - DropDown Element: NEWHCPPAGEPARTICIPANTROLE selected
+2016-10-10 19:48:33 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input]
+2016-10-10 19:48:33 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input]
+2016-10-10 19:48:33 INFO  ElementImpl:56 - Element element: NEWHCPPAGESEARCH loaded
+2016-10-10 19:48:33 INFO  ElementImpl:56 - Button element: NEWHCPPAGESEARCH clicked
+2016-10-10 19:48:38 ERROR BusinessFunctions:29 - Check the Header of the table/Rows, might be having zero values
+2016-10-10 19:48:42 INFO  BusinessFunctions:55 - Selected 4 checkboxes
+2016-10-10 19:48:42 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Participant & Close']]
+2016-10-10 19:48:42 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Add Participant & Close']]
+2016-10-10 19:48:43 INFO  ElementImpl:56 - Element element: ADDPARTICPANTANDCLOSE loaded
+2016-10-10 19:48:43 INFO  ElementImpl:56 - Button element: ADDPARTICPANTANDCLOSE clicked
+2016-10-10 19:48:48 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@419c494d
+2016-10-10 19:48:50 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a/span[text()='Locations']]
+2016-10-10 19:48:50 INFO  ElementImpl:56 - Element element: com.epam.pageElements.LocationPageObjects.NEWLOCATIONTAB loaded
+2016-10-10 19:48:50 INFO   Common Automation Framework :? - Created new participant
+2016-10-10 19:48:50 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class='listTitle' and text()='Logistic Needs']]
+2016-10-10 19:48:50 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class='listTitle' and text()='Logistic Needs']]
+2016-10-10 19:48:50 INFO  ElementImpl:56 - Element element: NEWLOGISTICTAB loaded
+2016-10-10 19:48:50 INFO  ElementImpl:56 - Button element: NEWLOGISTICTAB clicked
+2016-10-10 19:48:50 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='New Logistic Need']]
+2016-10-10 19:48:51 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='New Logistic Need']]
+2016-10-10 19:48:51 INFO  ElementImpl:56 - Element element: NEWLOGISTICNEED loaded
+2016-10-10 19:48:51 INFO  ElementImpl:56 - Button element: NEWLOGISTICNEED clicked
+2016-10-10 19:48:53 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]
+2016-10-10 19:48:53 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]
+2016-10-10 19:48:53 INFO  ElementImpl:56 - Element element: DRPLOGISTICNEED loaded
+2016-10-10 19:48:53 INFO  ElementImpl:56 - DropDown Element: DRPLOGISTICNEED selected
+2016-10-10 19:48:55 INFO  BusinessFunctions:55 - Selected 2 checkboxes
+2016-10-10 19:48:55 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Save&New']]
+2016-10-10 19:48:55 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Save&New']]
+2016-10-10 19:48:55 INFO  ElementImpl:56 - Element element: NEWLOGISTICSNEEDPAGESAVEANDNEW loaded
+2016-10-10 19:48:55 INFO  ElementImpl:56 - Button element: NEWLOGISTICSNEEDPAGESAVEANDNEW clicked
+2016-10-10 19:48:57 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]
+2016-10-10 19:48:57 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]
+2016-10-10 19:48:57 INFO  ElementImpl:56 - Element element: DRPLOGISTICNEED loaded
+2016-10-10 19:48:57 INFO  ElementImpl:56 - DropDown Element: DRPLOGISTICNEED selected
+2016-10-10 19:48:59 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//input[@value = 'Add Row']]
+2016-10-10 19:48:59 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//input[@value = 'Add Row']]
+2016-10-10 19:48:59 INFO  ElementImpl:56 - Element element: NEWLOGISTICSADDROW loaded
+2016-10-10 19:48:59 INFO  ElementImpl:56 - Button element: NEWLOGISTICSADDROW clicked
+2016-10-10 19:48:59 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]
+2016-10-10 19:48:59 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]
+2016-10-10 19:48:59 INFO  ElementImpl:56 - Element element: DRPLOGISTICNEED loaded
+2016-10-10 19:48:59 INFO  ElementImpl:56 - DropDown Element: DRPLOGISTICNEED selected
+2016-10-10 19:49:00 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Delete')]]/parent::td/following-sibling::td[2]/descendant::input]
+2016-10-10 19:49:00 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Delete')]]/parent::td/following-sibling::td[2]/descendant::input]
+2016-10-10 19:49:00 INFO  ElementImpl:56 - Element element: NEWLOGISTICSESTCOUNT loaded
+2016-10-10 19:49:00 INFO  ElementImpl:56 - TextField element: NEWLOGISTICSESTCOUNT set text successfully
+2016-10-10 19:49:00 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//*[@id='j_id0:logisticsId:fmvcomponents:pbTable:0:targetName']]
+2016-10-10 19:49:00 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//*[@id='j_id0:logisticsId:fmvcomponents:pbTable:0:targetName']]
+2016-10-10 19:49:00 INFO  ElementImpl:56 - Element element: NEWLOGISTICSVENDORNAME loaded
+2016-10-10 19:49:00 INFO  ElementImpl:56 - TextField element: NEWLOGISTICSVENDORNAME set text successfully
+2016-10-10 19:49:00 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Logistic Provider')]]/ancestor::thead/following-sibling::tbody/tr/td[7]/select]
+2016-10-10 19:49:00 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Logistic Provider')]]/ancestor::thead/following-sibling::tbody/tr/td[7]/select]
+2016-10-10 19:49:00 INFO  ElementImpl:56 - Element element: LOGISTICPROVIDER loaded
+2016-10-10 19:49:01 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Logistic Provider')]]/ancestor::thead/following-sibling::tbody/tr/td[7]/select]
+2016-10-10 19:49:01 INFO  ElementImpl:56 - Element element: LOGISTICPROVIDER loaded
+2016-10-10 19:49:01 INFO  ElementImpl:56 - DropDown Element: LOGISTICPROVIDER selected
+2016-10-10 19:49:01 INFO  ElementImpl:56 - DropDown Element: LOGISTICPROVIDER selected
+2016-10-10 19:49:01 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Save']]
+2016-10-10 19:49:01 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Save']]
+2016-10-10 19:49:01 INFO  ElementImpl:56 - Element element: NEWLOGISTICSNEEDPAGESAVE loaded
+2016-10-10 19:49:01 INFO  ElementImpl:56 - Button element: NEWLOGISTICSNEEDPAGESAVE clicked
+2016-10-10 19:49:01 INFO   Common Automation Framework :? - Created new logistics.
+2016-10-10 19:49:05 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a/span[text()='Estimates']]
+2016-10-10 19:49:05 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a/span[text()='Estimates']]
+2016-10-10 19:49:05 INFO  ElementImpl:56 - Element element: NEWESTESTIMATETAB loaded
+2016-10-10 19:49:05 INFO  ElementImpl:56 - Button element: NEWESTESTIMATETAB clicked
+2016-10-10 19:49:05 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='New Estimate']]
+2016-10-10 19:49:06 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='New Estimate']]
+2016-10-10 19:49:06 INFO  ElementImpl:56 - Element element: NEWESTNEWESTIMATE loaded
+2016-10-10 19:49:06 INFO  ElementImpl:56 - Button element: NEWESTNEWESTIMATE clicked
+2016-10-10 19:49:07 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@7585ace2
+2016-10-10 19:49:07 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]
+2016-10-10 19:49:07 INFO  ElementImpl:56 - Element element: NEWESTSPENDTYPE loaded
+2016-10-10 19:49:07 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]
+2016-10-10 19:49:07 INFO  ElementImpl:56 - Element element: NEWESTSPENDTYPE loaded
+2016-10-10 19:49:07 INFO  ElementImpl:56 - DropDown Element: NEWESTSPENDTYPE selected
+2016-10-10 19:49:07 INFO  ElementImpl:56 - DropDown Element: NEWESTSPENDTYPE selected
+2016-10-10 19:49:07 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'dataCol')]/input]
+2016-10-10 19:49:07 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'dataCol')]/input]
+2016-10-10 19:49:08 INFO  ElementImpl:56 - Element element: NEWESTAMOUNT loaded
+2016-10-10 19:49:08 INFO  ElementImpl:56 - TextField element: NEWESTAMOUNT set text successfully
+2016-10-10 19:49:08 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]
+2016-10-10 19:49:08 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]
+2016-10-10 19:49:08 INFO  ElementImpl:56 - Element element: NEWESTSAVE loaded
+2016-10-10 19:49:08 INFO  ElementImpl:56 - Button element: NEWESTSAVE clicked
+2016-10-10 19:49:08 INFO   Common Automation Framework :? - Created new estimate
+2016-10-10 19:49:10 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]
+2016-10-10 19:49:10 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]
+2016-10-10 19:49:10 INFO  ElementImpl:56 - Element element: CreatedInteractionName loaded
+2016-10-10 19:49:10 INFO  ElementImpl:56 - Button element: CreatedInteractionName clicked
+2016-10-10 19:49:12 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Validate']]
+2016-10-10 19:49:12 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Validate']]
+2016-10-10 19:49:12 INFO  ElementImpl:56 - Element element: VALIDATE_BTN loaded
+2016-10-10 19:49:12 INFO  ElementImpl:56 - Button element: VALIDATE_BTN clicked
+2016-10-10 19:49:14 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@25b8b7f
+2016-10-10 19:49:17 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction validated successfully')]]]
+2016-10-10 19:49:17 INFO  ElementImpl:56 - Element element: INTERACTION_VALIDATION_LBL loaded
+2016-10-10 19:49:17 INFO  ElementImpl:56 - Label Element: INTERACTION_VALIDATION_LBL returned label
+2016-10-10 19:49:17 INFO  InteractionPage:49 - Interaction validated successfully
+2016-10-10 19:49:17 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Submit for Approval']]
+2016-10-10 19:49:17 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@value='Submit for Approval']]
+2016-10-10 19:49:17 INFO  ElementImpl:56 - Element element: INTERACTION_SUBMIT_FOR_APPROVAL_BTN loaded
+2016-10-10 19:49:18 INFO  ElementImpl:56 - Alert pop-up element: INTERACTION_SUBMIT_FOR_APPROVAL_BTN clicked successfully
+2016-10-10 19:49:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//a[contains(text(),'Interactions')]]
+2016-10-10 19:49:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//a[contains(text(),'Interactions')]]
+2016-10-10 19:49:18 INFO  ElementImpl:56 - Element element: INTERACTION_NEW_TAB_LNK loaded
+2016-10-10 19:49:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@name='edit']]
+2016-10-10 19:49:18 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@name='edit']]
+2016-10-10 19:49:18 INFO  ElementImpl:56 - Element element: INTERACTION_EDIT_BTN loaded
+2016-10-10 19:49:18 INFO  ElementImpl:56 - Button element: INTERACTION_EDIT_BTN clicked
+2016-10-10 19:49:20 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:49:20 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:49:20 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_STATUS_DD loaded
+2016-10-10 19:49:20 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:49:20 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:49:20 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_STATUS_DD loaded
+2016-10-10 19:49:22 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_STATUS_DD selected
+2016-10-10 19:49:22 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:49:22 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:49:22 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_STATUS_DD loaded
+2016-10-10 19:49:22 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_STATUS_DD selected
+2016-10-10 19:49:22 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:49:22 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:49:22 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_SAVE_BTN loaded
+2016-10-10 19:49:22 INFO  ElementImpl:56 - Button element: NEW_INTERACTION_SAVE_BTN clicked
+2016-10-10 19:49:26 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@name='edit']]
+2016-10-10 19:49:26 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@name='edit']]
+2016-10-10 19:49:26 INFO  ElementImpl:56 - Element element: INTERACTION_EDIT_BTN loaded
+2016-10-10 19:49:26 INFO  ElementImpl:56 - Button element: INTERACTION_EDIT_BTN clicked
+2016-10-10 19:49:28 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:49:28 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:49:29 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_SAVE_BTN loaded
+2016-10-10 19:49:31 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:49:31 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:49:31 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_STATUS_DD loaded
+2016-10-10 19:49:31 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_STATUS_DD selected
+2016-10-10 19:49:31 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:49:31 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:49:31 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_STATUS_DD loaded
+2016-10-10 19:49:31 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_STATUS_DD selected
+2016-10-10 19:49:31 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:49:31 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:49:31 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_SAVE_BTN loaded
+2016-10-10 19:49:31 INFO  ElementImpl:56 - Button element: NEW_INTERACTION_SAVE_BTN clicked
+2016-10-10 19:49:31 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//a[contains(text(),'Interactions')]]
+2016-10-10 19:49:31 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//a[contains(text(),'Interactions')]]
+2016-10-10 19:49:31 INFO  ElementImpl:56 - Element element: INTERACTION_NEW_TAB_LNK loaded
+2016-10-10 19:49:31 INFO   Common Automation Framework :? - Updated the interaction status to accepted.
+2016-10-10 19:49:34 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@71ad7c17
+2016-10-10 19:49:36 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a/span[text()='Locations']]
+2016-10-10 19:49:36 INFO  ElementImpl:56 - Element element: NEWLOCATIONTAB loaded
+2016-10-10 19:49:36 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a/span[text()='Locations']]
+2016-10-10 19:49:37 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a/span[text()='Locations']]
+2016-10-10 19:49:37 INFO  ElementImpl:56 - Element element: NEWLOCATIONTAB loaded
+2016-10-10 19:49:37 INFO  ElementImpl:56 - Button element: NEWLOCATIONTAB clicked
+2016-10-10 19:49:37 INFO  BusinessFunctions:129 - Successfully clicked on Edit
+2016-10-10 19:49:38 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@6785b361
+2016-10-10 19:49:38 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Location Status')]]/parent::td/following-sibling::td[1]/descendant::select]
+2016-10-10 19:49:38 INFO  ElementImpl:56 - Element element: LOCATIONSTATUS loaded
+2016-10-10 19:49:38 INFO  ElementImpl:56 - DropDown Element: LOCATIONSTATUS selected
+2016-10-10 19:49:38 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='Save']]
+2016-10-10 19:49:38 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='Save']]
+2016-10-10 19:49:39 INFO  ElementImpl:56 - Element element: LOCATIONEDITSAVE loaded
+2016-10-10 19:49:39 INFO  ElementImpl:56 - Button element: LOCATIONEDITSAVE clicked
+2016-10-10 19:49:41 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@6b2cf4fc
+2016-10-10 19:49:42 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a/span[text()='Participants']]
+2016-10-10 19:49:42 INFO  ElementImpl:56 - Element element: com.epam.pageElements.PartcipantPageObjects.PARTICIPANTSTAB loaded
+2016-10-10 19:49:42 INFO  ElementImpl:56 - Button element: com.epam.pageElements.PartcipantPageObjects.PARTICIPANTSTAB clicked
+2016-10-10 19:49:43 INFO  BusinessFunctions:129 - Successfully clicked on Edit
+2016-10-10 19:49:44 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@760d4992
+2016-10-10 19:49:45 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td/descendant::select]
+2016-10-10 19:49:45 INFO  ElementImpl:56 - Element element: PARTICIPANTS loaded
+2016-10-10 19:49:45 INFO  ElementImpl:56 - DropDown Element: PARTICIPANTS selected
+2016-10-10 19:49:45 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[@value = 'Save']]
+2016-10-10 19:49:45 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[@value = 'Save']]
+2016-10-10 19:49:45 INFO  ElementImpl:56 - Element element: PARTICIPANTSAVE loaded
+2016-10-10 19:49:45 INFO  ElementImpl:56 - Button element: PARTICIPANTSAVE clicked
+2016-10-10 19:49:49 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a[text()[contains(.,'Back to Interaction')]]]
+2016-10-10 19:49:49 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a[text()[contains(.,'Back to Interaction')]]]
+2016-10-10 19:49:49 INFO  ElementImpl:56 - Element element: BACKTOINTERACTION loaded
+2016-10-10 19:49:49 INFO  ElementImpl:56 - Button element: BACKTOINTERACTION clicked
+2016-10-10 19:49:49 INFO   Common Automation Framework :? - Location confirmed
+2016-10-10 19:49:51 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@270304d3
+2016-10-10 19:49:52 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@name='edit']]
+2016-10-10 19:49:52 INFO  ElementImpl:56 - Element element: INTERACTION_EDIT_BTN loaded
+2016-10-10 19:49:52 INFO  ElementImpl:56 - Button element: INTERACTION_EDIT_BTN clicked
+2016-10-10 19:49:54 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:49:54 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:49:54 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_STATUS_DD loaded
+2016-10-10 19:49:54 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_STATUS_DD selected
+2016-10-10 19:49:54 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:49:54 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:49:54 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_STATUS_DD loaded
+2016-10-10 19:49:54 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_STATUS_DD selected
+2016-10-10 19:49:54 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:49:54 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:49:54 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_SAVE_BTN loaded
+2016-10-10 19:49:54 INFO  ElementImpl:56 - Button element: NEW_INTERACTION_SAVE_BTN clicked
+2016-10-10 19:50:00 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@fd02b57
+2016-10-10 19:50:00 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@name='edit']]
+2016-10-10 19:50:01 INFO  ElementImpl:56 - Element element: INTERACTION_EDIT_BTN loaded
+2016-10-10 19:50:01 INFO  ElementImpl:56 - Button element: INTERACTION_EDIT_BTN clicked
+2016-10-10 19:50:02 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@1e17070a
+2016-10-10 19:50:02 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:50:02 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_SAVE_BTN loaded
+2016-10-10 19:50:02 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:50:03 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:50:03 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:50:03 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_STATUS_DD loaded
+2016-10-10 19:50:03 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_STATUS_DD selected
+2016-10-10 19:50:03 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:50:03 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]
+2016-10-10 19:50:03 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_STATUS_DD loaded
+2016-10-10 19:50:04 INFO  ElementImpl:56 - DropDown Element: NEW_INTERACTION_STATUS_DD selected
+2016-10-10 19:50:04 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:50:04 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]
+2016-10-10 19:50:04 INFO  ElementImpl:56 - Element element: NEW_INTERACTION_SAVE_BTN loaded
+2016-10-10 19:50:04 INFO  ElementImpl:56 - Button element: NEW_INTERACTION_SAVE_BTN clicked
+2016-10-10 19:50:08 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a/span[text()='Locations']]
+2016-10-10 19:50:09 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //a/span[text()='Locations']]
+2016-10-10 19:50:09 INFO  ElementImpl:56 - Element element: com.epam.pageElements.LocationPageObjects.NEWLOCATIONTAB loaded
+2016-10-10 19:50:09 INFO   Common Automation Framework :? - Updated the interaction status to completed
+2016-10-10 19:50:09 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:09 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:09 INFO  ElementImpl:56 - Element element: NEWEXPEXPENSETAB loaded
+2016-10-10 19:50:09 INFO  ElementImpl:56 - Button element: NEWEXPEXPENSETAB clicked
+2016-10-10 19:50:09 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='New Expense']]
+2016-10-10 19:50:09 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='New Expense']]
+2016-10-10 19:50:09 INFO  ElementImpl:56 - Element element: NEWEXPNEWEXPENSE loaded
+2016-10-10 19:50:09 INFO  ElementImpl:56 - Button element: NEWEXPNEWEXPENSE clicked
+2016-10-10 19:50:10 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[contains(text(),'Record Type of new record')]/parent::td/following-sibling::td//select]
+2016-10-10 19:50:10 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='Continue']]
+2016-10-10 19:50:10 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='Continue']]
+2016-10-10 19:50:10 INFO  ElementImpl:56 - Element element: SELEXPCONTINUE loaded
+2016-10-10 19:50:10 INFO  ElementImpl:56 - Button element: SELEXPCONTINUE clicked
+2016-10-10 19:50:12 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@2ee6a5eb
+2016-10-10 19:50:13 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]
+2016-10-10 19:50:13 INFO  ElementImpl:56 - Element element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSPENDTYPE loaded
+2016-10-10 19:50:13 INFO  ElementImpl:56 - DropDown Element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSPENDTYPE selected
+2016-10-10 19:50:13 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]
+2016-10-10 19:50:13 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]
+2016-10-10 19:50:13 INFO  ElementImpl:56 - Element element: NEWEXPDATEOFEXPENSE loaded
+2016-10-10 19:50:13 INFO  ElementImpl:56 - TextField element: NEWEXPDATEOFEXPENSE set text successfully
+2016-10-10 19:50:13 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]
+2016-10-10 19:50:13 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]
+2016-10-10 19:50:13 INFO  ElementImpl:56 - Element element: NEWEXPAMOUNT loaded
+2016-10-10 19:50:13 INFO  ElementImpl:56 - TextField element: NEWEXPAMOUNT set text successfully
+2016-10-10 19:50:13 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]
+2016-10-10 19:50:13 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]
+2016-10-10 19:50:13 INFO  ElementImpl:56 - Element element: NEWEXPSTATUS loaded
+2016-10-10 19:50:14 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]
+2016-10-10 19:50:14 INFO  ElementImpl:56 - Element element: NEWEXPSTATUS loaded
+2016-10-10 19:50:14 INFO  ElementImpl:56 - DropDown Element: NEWEXPSTATUS selected
+2016-10-10 19:50:14 INFO  ElementImpl:56 - DropDown Element: NEWEXPSTATUS selected
+2016-10-10 19:50:14 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]
+2016-10-10 19:50:14 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]
+2016-10-10 19:50:14 INFO  ElementImpl:56 - Element element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSAVE loaded
+2016-10-10 19:50:14 INFO  ElementImpl:56 - Button element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSAVE clicked
+2016-10-10 19:50:16 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]
+2016-10-10 19:50:16 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]
+2016-10-10 19:50:17 INFO  ElementImpl:56 - Element element: CreatedInteractionName loaded
+2016-10-10 19:50:17 INFO  ElementImpl:56 - Button element: CreatedInteractionName clicked
+2016-10-10 19:50:18 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@2e9bf23d
+2016-10-10 19:50:19 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:19 INFO  ElementImpl:56 - Element element: NEWEXPEXPENSETAB loaded
+2016-10-10 19:50:19 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:20 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:20 INFO  ElementImpl:56 - Element element: NEWEXPEXPENSETAB loaded
+2016-10-10 19:50:20 INFO  ElementImpl:56 - Button element: NEWEXPEXPENSETAB clicked
+2016-10-10 19:50:20 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='New Expense']]
+2016-10-10 19:50:20 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='New Expense']]
+2016-10-10 19:50:20 INFO  ElementImpl:56 - Element element: NEWEXPNEWEXPENSE loaded
+2016-10-10 19:50:20 INFO  ElementImpl:56 - Button element: NEWEXPNEWEXPENSE clicked
+2016-10-10 19:50:20 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@6a6585ee
+2016-10-10 19:50:21 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='Continue']]
+2016-10-10 19:50:21 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='Continue']]
+2016-10-10 19:50:21 INFO  ElementImpl:56 - Element element: SELEXPCONTINUE loaded
+2016-10-10 19:50:21 INFO  ElementImpl:56 - Button element: SELEXPCONTINUE clicked
+2016-10-10 19:50:23 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]
+2016-10-10 19:50:24 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]
+2016-10-10 19:50:24 INFO  ElementImpl:56 - Element element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSPENDTYPE loaded
+2016-10-10 19:50:24 INFO  ElementImpl:56 - DropDown Element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSPENDTYPE selected
+2016-10-10 19:50:24 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]
+2016-10-10 19:50:24 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]
+2016-10-10 19:50:24 INFO  ElementImpl:56 - Element element: NEWEXPDATEOFEXPENSE loaded
+2016-10-10 19:50:24 INFO  ElementImpl:56 - TextField element: NEWEXPDATEOFEXPENSE set text successfully
+2016-10-10 19:50:24 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]
+2016-10-10 19:50:24 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]
+2016-10-10 19:50:24 INFO  ElementImpl:56 - Element element: NEWEXPAMOUNT loaded
+2016-10-10 19:50:24 INFO  ElementImpl:56 - TextField element: NEWEXPAMOUNT set text successfully
+2016-10-10 19:50:24 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]
+2016-10-10 19:50:24 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]
+2016-10-10 19:50:24 INFO  ElementImpl:56 - Element element: NEWEXPSTATUS loaded
+2016-10-10 19:50:25 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]
+2016-10-10 19:50:25 INFO  ElementImpl:56 - Element element: NEWEXPSTATUS loaded
+2016-10-10 19:50:25 INFO  ElementImpl:56 - DropDown Element: NEWEXPSTATUS selected
+2016-10-10 19:50:25 INFO  ElementImpl:56 - DropDown Element: NEWEXPSTATUS selected
+2016-10-10 19:50:25 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]
+2016-10-10 19:50:25 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]
+2016-10-10 19:50:25 INFO  ElementImpl:56 - Element element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSAVE loaded
+2016-10-10 19:50:25 INFO  ElementImpl:56 - Button element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSAVE clicked
+2016-10-10 19:50:27 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]
+2016-10-10 19:50:27 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]
+2016-10-10 19:50:27 INFO  ElementImpl:56 - Element element: CreatedInteractionName loaded
+2016-10-10 19:50:27 INFO  ElementImpl:56 - Button element: CreatedInteractionName clicked
+2016-10-10 19:50:29 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@7c5f9089
+2016-10-10 19:50:30 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:30 INFO  ElementImpl:56 - Element element: NEWEXPEXPENSETAB loaded
+2016-10-10 19:50:30 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:30 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:30 INFO  ElementImpl:56 - Element element: NEWEXPEXPENSETAB loaded
+2016-10-10 19:50:30 INFO  ElementImpl:56 - Button element: NEWEXPEXPENSETAB clicked
+2016-10-10 19:50:30 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='New Expense']]
+2016-10-10 19:50:30 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='New Expense']]
+2016-10-10 19:50:30 INFO  ElementImpl:56 - Element element: NEWEXPNEWEXPENSE loaded
+2016-10-10 19:50:30 INFO  ElementImpl:56 - Button element: NEWEXPNEWEXPENSE clicked
+2016-10-10 19:50:31 INFO  Services:29 - >>>> Waiting for element <<<< : Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@4794169a
+2016-10-10 19:50:31 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='Continue']]
+2016-10-10 19:50:31 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='Continue']]
+2016-10-10 19:50:31 INFO  ElementImpl:56 - Element element: SELEXPCONTINUE loaded
+2016-10-10 19:50:31 INFO  ElementImpl:56 - Button element: SELEXPCONTINUE clicked
+2016-10-10 19:50:34 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]
+2016-10-10 19:50:34 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]
+2016-10-10 19:50:34 INFO  ElementImpl:56 - Element element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSPENDTYPE loaded
+2016-10-10 19:50:35 INFO  ElementImpl:56 - DropDown Element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSPENDTYPE selected
+2016-10-10 19:50:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]
+2016-10-10 19:50:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]
+2016-10-10 19:50:35 INFO  ElementImpl:56 - Element element: NEWEXPDATEOFEXPENSE loaded
+2016-10-10 19:50:35 INFO  ElementImpl:56 - TextField element: NEWEXPDATEOFEXPENSE set text successfully
+2016-10-10 19:50:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]
+2016-10-10 19:50:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]
+2016-10-10 19:50:35 INFO  ElementImpl:56 - Element element: NEWEXPAMOUNT loaded
+2016-10-10 19:50:35 INFO  ElementImpl:56 - TextField element: NEWEXPAMOUNT set text successfully
+2016-10-10 19:50:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]
+2016-10-10 19:50:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]
+2016-10-10 19:50:35 INFO  ElementImpl:56 - Element element: NEWEXPSTATUS loaded
+2016-10-10 19:50:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]
+2016-10-10 19:50:35 INFO  ElementImpl:56 - Element element: NEWEXPSTATUS loaded
+2016-10-10 19:50:35 INFO  ElementImpl:56 - DropDown Element: NEWEXPSTATUS selected
+2016-10-10 19:50:35 INFO  ElementImpl:56 - DropDown Element: NEWEXPSTATUS selected
+2016-10-10 19:50:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]
+2016-10-10 19:50:35 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]
+2016-10-10 19:50:35 INFO  ElementImpl:56 - Element element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSAVE loaded
+2016-10-10 19:50:35 INFO  ElementImpl:56 - Button element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSAVE clicked
+2016-10-10 19:50:38 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]
+2016-10-10 19:50:38 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]
+2016-10-10 19:50:38 INFO  ElementImpl:56 - Element element: CreatedInteractionName loaded
+2016-10-10 19:50:38 INFO  ElementImpl:56 - Button element: CreatedInteractionName clicked
+2016-10-10 19:50:42 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:42 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:42 INFO  ElementImpl:56 - Element element: NEWEXPEXPENSETAB loaded
+2016-10-10 19:50:42 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:42 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:42 INFO  ElementImpl:56 - Element element: NEWEXPEXPENSETAB loaded
+2016-10-10 19:50:42 INFO  ElementImpl:56 - Button element: NEWEXPEXPENSETAB clicked
+2016-10-10 19:50:42 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='New Expense']]
+2016-10-10 19:50:42 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='New Expense']]
+2016-10-10 19:50:42 INFO  ElementImpl:56 - Element element: NEWEXPNEWEXPENSE loaded
+2016-10-10 19:50:42 INFO  ElementImpl:56 - Button element: NEWEXPNEWEXPENSE clicked
+2016-10-10 19:50:43 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[contains(text(),'Record Type of new record')]/parent::td/following-sibling::td//select]
+2016-10-10 19:50:43 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='Continue']]
+2016-10-10 19:50:43 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='Continue']]
+2016-10-10 19:50:43 INFO  ElementImpl:56 - Element element: SELEXPCONTINUE loaded
+2016-10-10 19:50:43 INFO  ElementImpl:56 - Button element: SELEXPCONTINUE clicked
+2016-10-10 19:50:45 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]
+2016-10-10 19:50:45 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]
+2016-10-10 19:50:45 INFO  ElementImpl:56 - Element element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSPENDTYPE loaded
+2016-10-10 19:50:45 INFO  ElementImpl:56 - DropDown Element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSPENDTYPE selected
+2016-10-10 19:50:45 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]
+2016-10-10 19:50:45 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]
+2016-10-10 19:50:46 INFO  ElementImpl:56 - Element element: NEWEXPDATEOFEXPENSE loaded
+2016-10-10 19:50:46 INFO  ElementImpl:56 - TextField element: NEWEXPDATEOFEXPENSE set text successfully
+2016-10-10 19:50:46 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]
+2016-10-10 19:50:46 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]
+2016-10-10 19:50:46 INFO  ElementImpl:56 - Element element: NEWEXPAMOUNT loaded
+2016-10-10 19:50:46 INFO  ElementImpl:56 - TextField element: NEWEXPAMOUNT set text successfully
+2016-10-10 19:50:46 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]
+2016-10-10 19:50:46 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]
+2016-10-10 19:50:46 INFO  ElementImpl:56 - Element element: NEWEXPSTATUS loaded
+2016-10-10 19:50:46 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]
+2016-10-10 19:50:46 INFO  ElementImpl:56 - Element element: NEWEXPSTATUS loaded
+2016-10-10 19:50:46 INFO  ElementImpl:56 - DropDown Element: NEWEXPSTATUS selected
+2016-10-10 19:50:46 INFO  ElementImpl:56 - DropDown Element: NEWEXPSTATUS selected
+2016-10-10 19:50:46 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]
+2016-10-10 19:50:46 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]
+2016-10-10 19:50:46 INFO  ElementImpl:56 - Element element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSAVE loaded
+2016-10-10 19:50:46 INFO  ElementImpl:56 - Button element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSAVE clicked
+2016-10-10 19:50:48 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]
+2016-10-10 19:50:48 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]
+2016-10-10 19:50:49 INFO  ElementImpl:56 - Element element: CreatedInteractionName loaded
+2016-10-10 19:50:49 INFO  ElementImpl:56 - Button element: CreatedInteractionName clicked
+2016-10-10 19:50:52 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:52 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:52 INFO  ElementImpl:56 - Element element: NEWEXPEXPENSETAB loaded
+2016-10-10 19:50:52 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:52 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:50:52 INFO  ElementImpl:56 - Element element: NEWEXPEXPENSETAB loaded
+2016-10-10 19:50:52 INFO  ElementImpl:56 - Button element: NEWEXPEXPENSETAB clicked
+2016-10-10 19:50:52 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='New Expense']]
+2016-10-10 19:50:52 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='New Expense']]
+2016-10-10 19:50:52 INFO  ElementImpl:56 - Element element: NEWEXPNEWEXPENSE loaded
+2016-10-10 19:50:52 INFO  ElementImpl:56 - Button element: NEWEXPNEWEXPENSE clicked
+2016-10-10 19:50:53 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[contains(text(),'Record Type of new record')]/parent::td/following-sibling::td//select]
+2016-10-10 19:50:53 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='Continue']]
+2016-10-10 19:50:53 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //input[@title='Continue']]
+2016-10-10 19:50:53 INFO  ElementImpl:56 - Element element: SELEXPCONTINUE loaded
+2016-10-10 19:50:53 INFO  ElementImpl:56 - Button element: SELEXPCONTINUE clicked
+2016-10-10 19:50:55 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]
+2016-10-10 19:50:55 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]
+2016-10-10 19:50:55 INFO  ElementImpl:56 - Element element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSPENDTYPE loaded
+2016-10-10 19:50:56 INFO  ElementImpl:56 - DropDown Element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSPENDTYPE selected
+2016-10-10 19:50:56 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]
+2016-10-10 19:50:56 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]
+2016-10-10 19:50:56 INFO  ElementImpl:56 - Element element: NEWEXPDATEOFEXPENSE loaded
+2016-10-10 19:50:56 INFO  ElementImpl:56 - TextField element: NEWEXPDATEOFEXPENSE set text successfully
+2016-10-10 19:50:56 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]
+2016-10-10 19:50:56 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]
+2016-10-10 19:50:56 INFO  ElementImpl:56 - Element element: NEWEXPAMOUNT loaded
+2016-10-10 19:50:56 INFO  ElementImpl:56 - TextField element: NEWEXPAMOUNT set text successfully
+2016-10-10 19:50:56 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]
+2016-10-10 19:50:56 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]
+2016-10-10 19:50:56 INFO  ElementImpl:56 - Element element: NEWEXPSTATUS loaded
+2016-10-10 19:50:56 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]
+2016-10-10 19:50:56 INFO  ElementImpl:56 - Element element: NEWEXPSTATUS loaded
+2016-10-10 19:50:56 INFO  ElementImpl:56 - DropDown Element: NEWEXPSTATUS selected
+2016-10-10 19:50:56 INFO  ElementImpl:56 - DropDown Element: NEWEXPSTATUS selected
+2016-10-10 19:50:56 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]
+2016-10-10 19:50:56 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]
+2016-10-10 19:50:56 INFO  ElementImpl:56 - Element element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSAVE loaded
+2016-10-10 19:50:56 INFO  ElementImpl:56 - Button element: com.epam.pageElements.NewEstimatePageObjects.NEWESTSAVE clicked
+2016-10-10 19:50:59 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]
+2016-10-10 19:50:59 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]
+2016-10-10 19:50:59 INFO  ElementImpl:56 - Element element: CreatedInteractionName loaded
+2016-10-10 19:50:59 INFO  ElementImpl:56 - Button element: CreatedInteractionName clicked
+2016-10-10 19:51:02 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:51:02 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (80d2d1fb51d97dc5df99f121f4486d08)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]
+2016-10-10 19:51:02 INFO  ElementImpl:56 - Element element: NEWEXPEXPENSETAB loaded
+2016-10-10 19:51:02 INFO   Common Automation Framework :? - Paid expenses successfully
+2016-10-10 19:51:02 ERROR  Common Automation Framework :? - groovy.lang.MissingMethodException: No signature of method: com.epam.pages.DisclosureAgreementPage.addDisclosureAgreement() is applicable for argument types: (java.util.TreeMap) values: [[AHMProduct:Brilinta, AddressLine1:, Company:--None--, Currency:U.S. Dollar, ...]]
+Possible solutions: addDisclosureAgreement()
+2016-10-10 19:51:03 INFO   Common Automation Framework :? - ================================ TEST ENDS =========================================
+2016-10-10 19:51:03 INFO   Common Automation Framework :? - ************************************************************************************

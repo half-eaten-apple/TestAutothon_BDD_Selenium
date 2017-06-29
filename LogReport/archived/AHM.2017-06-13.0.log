@@ -1,0 +1,402 @@
+2017-06-13 15:25:32 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 15:25:33 - Starting AddTwoIntegersWebServiceScenario
+2017-06-13 15:25:33 - Executing getConnection()
+2017-06-13 15:25:33 - httpclient object created to connect to the connection url:
+2017-06-13 15:25:33 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2017-06-13 15:25:33 - setReuqest
+2017-06-13 15:25:33 - setReuqest
+2017-06-13 15:25:33 - getReuqest
+2017-06-13 15:25:33 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-06-13 15:25:33 - Executing getConnection()
+2017-06-13 15:25:33 - httpclient object created to connect to the connection url:
+2017-06-13 15:25:33 - getReuqest
+2017-06-13 15:25:34 - Executing getReponse()
+2017-06-13 15:25:34 - Executing getResponseStatus()
+2017-06-13 15:25:34 - The output of the request is:HTTP/1.1 200 OK
+2017-06-13 15:25:34 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2017-06-13 15:25:34 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2017-06-13 15:25:34 - Executing closeConnection()
+2017-06-13 15:25:34 - Executing getConnection()
+2017-06-13 15:25:34 - httpclient object created to connect to the connection url:
+2017-06-13 15:25:34 - ================================   TEST METHOD ENDS   =========================================
+2017-06-13 15:25:34 - Starting SubtractTwoIntegersWebServiceScenario
+2017-06-13 15:25:34 - Executing getConnection()
+2017-06-13 15:25:34 - httpclient object created to connect to the connection url:
+2017-06-13 15:25:34 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Subtract; requestBody: <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Subtract>
+         <tem:intA>10</tem:intA>
+         <tem:intB>5</tem:intB>
+      </tem:Subtract>
+   </soap:Body>
+</soap:Envelope>
+2017-06-13 15:25:34 - setReuqest
+2017-06-13 15:25:34 - setReuqest
+2017-06-13 15:25:34 - getReuqest
+2017-06-13 15:25:34 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-06-13 15:25:34 - Executing getConnection()
+2017-06-13 15:25:34 - httpclient object created to connect to the connection url:
+2017-06-13 15:25:34 - getReuqest
+2017-06-13 15:25:35 - Executing getReponse()
+2017-06-13 15:25:35 - Executing getResponseStatus()
+2017-06-13 15:25:35 - The output of the request is:HTTP/1.1 200 OK
+2017-06-13 15:25:35 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SubtractResponse xmlns="http://tempuri.org/"><SubtractResult>5</SubtractResult></SubtractResponse></soap:Body></soap:Envelope>
+2017-06-13 15:25:35 - Response XML validated successfully. Value 5 is present at //SubtractResult/text() in response file.
+2017-06-13 15:25:35 - Executing closeConnection()
+2017-06-13 15:25:35 - Executing getConnection()
+2017-06-13 15:25:35 - httpclient object created to connect to the connection url:
+2017-06-13 15:25:35 - ================================   TEST METHOD ENDS   TEST METHOD ENDS   =========================================
+2017-06-13 15:32:41 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 15:32:43 - Starting Web service Scenario
+2017-06-13 15:33:05 - Executing getConnection()
+2017-06-13 15:33:05 - httpclient object created to connect to the connection url:
+2017-06-13 15:33:05 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2017-06-13 15:33:05 - setReuqest
+2017-06-13 15:33:05 - setReuqest
+2017-06-13 15:33:05 - getReuqest
+2017-06-13 15:33:05 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-06-13 15:33:05 - Executing getConnection()
+2017-06-13 15:33:05 - httpclient object created to connect to the connection url:
+2017-06-13 15:33:05 - getReuqest
+2017-06-13 15:33:06 - Executing getReponse()
+2017-06-13 15:33:06 - Executing getResponseStatus()
+2017-06-13 15:33:06 - The output of the request is:HTTP/1.1 200 OK
+2017-06-13 15:33:06 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2017-06-13 15:33:11 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2017-06-13 15:33:11 - Executing closeConnection()
+2017-06-13 15:33:11 - Executing getConnection()
+2017-06-13 15:33:11 - httpclient object created to connect to the connection url:
+2017-06-13 15:33:11 - ================================   TEST METHOD ENDS   =========================================
+2017-06-13 15:33:11 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 15:33:11 - Starting Web service Scenario
+2017-06-13 15:33:11 - Executing getConnection()
+2017-06-13 15:33:11 - httpclient object created to connect to the connection url:
+2017-06-13 15:33:11 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2017-06-13 15:33:11 - setReuqest
+2017-06-13 15:33:11 - setReuqest
+2017-06-13 15:33:11 - getReuqest
+2017-06-13 15:33:11 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-06-13 15:33:11 - Executing getConnection()
+2017-06-13 15:33:11 - httpclient object created to connect to the connection url:
+2017-06-13 15:33:11 - getReuqest
+2017-06-13 15:33:12 - Executing getReponse()
+2017-06-13 15:33:12 - Executing getResponseStatus()
+2017-06-13 15:33:12 - The output of the request is:HTTP/1.1 200 OK
+2017-06-13 15:33:12 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2017-06-13 15:33:12 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2017-06-13 15:33:12 - Executing closeConnection()
+2017-06-13 15:33:12 - Executing getConnection()
+2017-06-13 15:33:12 - httpclient object created to connect to the connection url:
+2017-06-13 15:33:12 - ================================   TEST METHOD ENDS   =========================================
+2017-06-13 15:36:19 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 15:36:21 - Starting Web service Scenario
+2017-06-13 15:36:45 - Executing getConnection()
+2017-06-13 15:36:45 - httpclient object created to connect to the connection url:
+2017-06-13 15:36:45 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2017-06-13 15:36:45 - setReuqest
+2017-06-13 15:36:45 - setReuqest
+2017-06-13 15:36:45 - getReuqest
+2017-06-13 15:36:45 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-06-13 15:36:45 - Executing getConnection()
+2017-06-13 15:36:45 - httpclient object created to connect to the connection url:
+2017-06-13 15:36:45 - getReuqest
+2017-06-13 15:36:46 - Executing getReponse()
+2017-06-13 15:36:46 - Executing getResponseStatus()
+2017-06-13 15:36:46 - The output of the request is:HTTP/1.1 200 OK
+2017-06-13 15:36:46 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2017-06-13 15:36:47 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2017-06-13 15:36:47 - Executing closeConnection()
+2017-06-13 15:36:47 - Executing getConnection()
+2017-06-13 15:36:47 - httpclient object created to connect to the connection url:
+2017-06-13 15:36:47 - ================================   TEST METHOD ENDS   =========================================
+2017-06-13 15:36:47 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 15:36:47 - Starting Web service Scenario
+2017-06-13 15:37:46 - Executing getConnection()
+2017-06-13 15:37:46 - httpclient object created to connect to the connection url:
+2017-06-13 15:37:46 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2017-06-13 15:37:46 - setReuqest
+2017-06-13 15:37:46 - setReuqest
+2017-06-13 15:37:46 - getReuqest
+2017-06-13 15:37:46 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-06-13 15:37:46 - Executing getConnection()
+2017-06-13 15:37:46 - httpclient object created to connect to the connection url:
+2017-06-13 15:37:46 - getReuqest
+2017-06-13 15:38:46 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 15:38:49 - Starting Web service Scenario
+2017-06-13 15:38:49 - Executing getConnection()
+2017-06-13 15:38:49 - httpclient object created to connect to the connection url:
+2017-06-13 15:38:49 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2017-06-13 15:38:49 - setReuqest
+2017-06-13 15:38:49 - setReuqest
+2017-06-13 15:38:49 - getReuqest
+2017-06-13 15:38:49 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-06-13 15:38:49 - Executing getConnection()
+2017-06-13 15:38:49 - httpclient object created to connect to the connection url:
+2017-06-13 15:38:49 - getReuqest
+2017-06-13 15:38:50 - Executing getReponse()
+2017-06-13 15:38:50 - Executing getResponseStatus()
+2017-06-13 15:38:50 - The output of the request is:HTTP/1.1 200 OK
+2017-06-13 15:38:50 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2017-06-13 15:38:50 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2017-06-13 15:38:50 - Executing closeConnection()
+2017-06-13 15:38:50 - Executing getConnection()
+2017-06-13 15:38:50 - httpclient object created to connect to the connection url:
+2017-06-13 15:38:50 - ================================   TEST METHOD ENDS   =========================================
+2017-06-13 15:38:50 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 15:39:30 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 15:39:32 - Starting Web service Scenario
+2017-06-13 15:39:32 - Executing getConnection()
+2017-06-13 15:39:33 - httpclient object created to connect to the connection url:
+2017-06-13 15:39:33 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2017-06-13 15:39:33 - setReuqest
+2017-06-13 15:39:33 - setReuqest
+2017-06-13 15:39:33 - getReuqest
+2017-06-13 15:39:33 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-06-13 15:39:33 - Executing getConnection()
+2017-06-13 15:39:33 - httpclient object created to connect to the connection url:
+2017-06-13 15:39:33 - getReuqest
+2017-06-13 15:39:33 - Executing getReponse()
+2017-06-13 15:39:33 - Executing getResponseStatus()
+2017-06-13 15:39:33 - The output of the request is:HTTP/1.1 200 OK
+2017-06-13 15:39:33 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2017-06-13 15:39:34 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2017-06-13 15:39:34 - Executing closeConnection()
+2017-06-13 15:39:34 - Executing getConnection()
+2017-06-13 15:39:34 - httpclient object created to connect to the connection url:
+2017-06-13 15:39:34 - ================================   TEST METHOD ENDS   =========================================
+2017-06-13 15:39:34 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 15:39:40 - Started Firefox Browser successfully.
+2017-06-13 15:39:42 - ================================  TEST METHOD STARTS  =========================================
+2017-06-13 15:39:42 - 
+2017-06-13 15:39:42 - Executing getConnection()
+2017-06-13 15:39:42 - httpclient object created to connect to the connection url:
+2017-06-13 15:39:42 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Subtract; requestBody: <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Subtract>
+         <tem:intA>10</tem:intA>
+         <tem:intB>5</tem:intB>
+      </tem:Subtract>
+   </soap:Body>
+</soap:Envelope>
+2017-06-13 15:39:42 - setReuqest
+2017-06-13 15:39:42 - setReuqest
+2017-06-13 15:39:42 - getReuqest
+2017-06-13 15:39:42 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-06-13 15:39:42 - Executing getConnection()
+2017-06-13 15:39:42 - httpclient object created to connect to the connection url:
+2017-06-13 15:39:42 - getReuqest
+2017-06-13 15:39:43 - Executing getReponse()
+2017-06-13 15:39:43 - Executing getResponseStatus()
+2017-06-13 15:39:43 - The output of the request is:HTTP/1.1 200 OK
+2017-06-13 15:39:43 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SubtractResponse xmlns="http://tempuri.org/"><SubtractResult>5</SubtractResult></SubtractResponse></soap:Body></soap:Envelope>
+2017-06-13 15:39:43 - Response XML validated successfully. Value 5 is present at //SubtractResult/text() in response file.
+2017-06-13 15:39:43 - Executing closeConnection()
+2017-06-13 15:39:43 - Executing getConnection()
+2017-06-13 15:39:43 - httpclient object created to connect to the connection url:
+2017-06-13 15:39:45 - ================================   TEST METHOD ENDS   =========================================
+2017-06-13 15:40:50 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 15:40:52 - Starting Web service Scenario
+2017-06-13 15:40:52 - Executing getConnection()
+2017-06-13 15:40:52 - httpclient object created to connect to the connection url:
+2017-06-13 15:40:52 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2017-06-13 15:40:52 - setReuqest
+2017-06-13 15:40:52 - setReuqest
+2017-06-13 15:40:52 - getReuqest
+2017-06-13 15:40:52 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-06-13 15:40:52 - Executing getConnection()
+2017-06-13 15:40:52 - httpclient object created to connect to the connection url:
+2017-06-13 15:40:52 - getReuqest
+2017-06-13 15:40:53 - Executing getReponse()
+2017-06-13 15:40:53 - Executing getResponseStatus()
+2017-06-13 15:40:53 - The output of the request is:HTTP/1.1 200 OK
+2017-06-13 15:40:53 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2017-06-13 15:40:53 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2017-06-13 15:40:53 - Executing closeConnection()
+2017-06-13 15:40:53 - Executing getConnection()
+2017-06-13 15:40:53 - httpclient object created to connect to the connection url:
+2017-06-13 15:40:53 - ================================   TEST METHOD ENDS   =========================================
+2017-06-13 15:40:53 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 15:40:59 - Started Firefox Browser successfully.
+2017-06-13 15:41:01 - ================================  TEST METHOD STARTS  =========================================
+2017-06-13 15:41:01 - 
+2017-06-13 15:41:01 - Executing getConnection()
+2017-06-13 15:41:01 - httpclient object created to connect to the connection url:
+2017-06-13 15:41:01 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Subtract; requestBody: <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Subtract>
+         <tem:intA>10</tem:intA>
+         <tem:intB>5</tem:intB>
+      </tem:Subtract>
+   </soap:Body>
+</soap:Envelope>
+2017-06-13 15:41:01 - setReuqest
+2017-06-13 15:41:01 - setReuqest
+2017-06-13 15:41:01 - getReuqest
+2017-06-13 15:41:01 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-06-13 15:41:01 - Executing getConnection()
+2017-06-13 15:41:01 - httpclient object created to connect to the connection url:
+2017-06-13 15:41:01 - getReuqest
+2017-06-13 15:41:02 - Executing getReponse()
+2017-06-13 15:41:02 - Executing getResponseStatus()
+2017-06-13 15:41:02 - The output of the request is:HTTP/1.1 200 OK
+2017-06-13 15:41:02 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SubtractResponse xmlns="http://tempuri.org/"><SubtractResult>5</SubtractResult></SubtractResponse></soap:Body></soap:Envelope>
+2017-06-13 15:41:02 - Response XML validated successfully. Value 5 is present at //SubtractResult/text() in response file.
+2017-06-13 15:41:02 - Executing closeConnection()
+2017-06-13 15:41:02 - Executing getConnection()
+2017-06-13 15:41:02 - httpclient object created to connect to the connection url:
+2017-06-13 15:41:04 - ================================   TEST METHOD ENDS   =========================================
+2017-06-13 15:42:51 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 15:42:52 - Starting Web service Scenario
+2017-06-13 15:42:52 - Executing getConnection()
+2017-06-13 15:42:52 - httpclient object created to connect to the connection url:
+2017-06-13 15:42:52 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2017-06-13 15:42:52 - setReuqest
+2017-06-13 15:42:53 - setReuqest
+2017-06-13 15:42:53 - getReuqest
+2017-06-13 15:42:53 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-06-13 15:42:53 - Executing getConnection()
+2017-06-13 15:42:53 - httpclient object created to connect to the connection url:
+2017-06-13 15:42:53 - getReuqest
+2017-06-13 15:42:53 - Executing getReponse()
+2017-06-13 15:42:53 - Executing getResponseStatus()
+2017-06-13 15:42:53 - The output of the request is:HTTP/1.1 200 OK
+2017-06-13 15:42:53 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2017-06-13 15:42:53 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2017-06-13 15:42:53 - Executing closeConnection()
+2017-06-13 15:42:53 - Executing getConnection()
+2017-06-13 15:42:53 - httpclient object created to connect to the connection url:
+2017-06-13 15:42:53 - ================================   TEST METHOD ENDS   =========================================
+2017-06-13 15:42:53 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 15:42:53 - User had specified [WebDriverCommandSwitch] command switch for Chrome Browser
+2017-06-13 15:42:57 - Started Google Chrome Driver with command switches successfully
+2017-06-13 15:43:14 - Failed to start the scenario
+2017-06-13 15:43:14 - 
+2017-06-13 15:43:14 - Executing getConnection()
+2017-06-13 15:43:14 - httpclient object created to connect to the connection url:
+2017-06-13 15:43:14 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Subtract; requestBody: <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Subtract>
+         <tem:intA>10</tem:intA>
+         <tem:intB>5</tem:intB>
+      </tem:Subtract>
+   </soap:Body>
+</soap:Envelope>
+2017-06-13 15:43:14 - setReuqest
+2017-06-13 15:43:14 - setReuqest
+2017-06-13 15:43:14 - getReuqest
+2017-06-13 15:43:14 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-06-13 15:43:14 - Executing getConnection()
+2017-06-13 15:43:14 - httpclient object created to connect to the connection url:
+2017-06-13 15:43:14 - getReuqest
+2017-06-13 15:43:14 - Executing getReponse()
+2017-06-13 15:43:14 - Executing getResponseStatus()
+2017-06-13 15:43:14 - The output of the request is:HTTP/1.1 200 OK
+2017-06-13 15:43:14 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SubtractResponse xmlns="http://tempuri.org/"><SubtractResult>5</SubtractResult></SubtractResponse></soap:Body></soap:Envelope>
+2017-06-13 15:43:14 - Response XML validated successfully. Value 5 is present at //SubtractResult/text() in response file.
+2017-06-13 15:43:14 - Executing closeConnection()
+2017-06-13 15:43:14 - Executing getConnection()
+2017-06-13 15:43:14 - httpclient object created to connect to the connection url:
+2017-06-13 15:43:15 - ================================   TEST METHOD ENDS   =========================================
+2017-06-13 15:48:28 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 15:48:31 - Starting Web service Scenario
+2017-06-13 15:48:31 - Executing getConnection()
+2017-06-13 15:48:32 - httpclient object created to connect to the connection url:
+2017-06-13 15:48:32 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2017-06-13 15:48:32 - setReuqest
+2017-06-13 15:48:32 - setReuqest
+2017-06-13 15:48:32 - getReuqest
+2017-06-13 15:48:32 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-06-13 15:48:32 - Executing getConnection()
+2017-06-13 15:48:32 - httpclient object created to connect to the connection url:
+2017-06-13 15:48:32 - getReuqest
+2017-06-13 15:48:33 - Executing getReponse()
+2017-06-13 15:48:33 - Executing getResponseStatus()
+2017-06-13 15:48:33 - The output of the request is:HTTP/1.1 200 OK
+2017-06-13 15:48:33 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2017-06-13 15:48:33 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2017-06-13 15:48:33 - Executing closeConnection()
+2017-06-13 15:48:33 - Executing getConnection()
+2017-06-13 15:48:33 - httpclient object created to connect to the connection url:
+2017-06-13 15:48:33 - ================================   TEST METHOD ENDS   =========================================
+2017-06-13 15:48:33 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 15:48:33 - Starting Web service Scenario
+2017-06-13 15:48:33 - Executing getConnection()
+2017-06-13 15:48:33 - httpclient object created to connect to the connection url:
+2017-06-13 15:48:33 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Subtract; requestBody: <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Subtract>
+         <tem:intA>10</tem:intA>
+         <tem:intB>5</tem:intB>
+      </tem:Subtract>
+   </soap:Body>
+</soap:Envelope>
+2017-06-13 15:48:33 - setReuqest
+2017-06-13 15:48:33 - setReuqest
+2017-06-13 15:48:33 - getReuqest
+2017-06-13 15:48:33 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-06-13 15:48:33 - Executing getConnection()
+2017-06-13 15:48:33 - httpclient object created to connect to the connection url:
+2017-06-13 15:48:33 - getReuqest
+2017-06-13 15:48:34 - Executing getReponse()
+2017-06-13 15:48:34 - Executing getResponseStatus()
+2017-06-13 15:48:34 - The output of the request is:HTTP/1.1 200 OK
+2017-06-13 15:48:34 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SubtractResponse xmlns="http://tempuri.org/"><SubtractResult>5</SubtractResult></SubtractResponse></soap:Body></soap:Envelope>
+2017-06-13 15:48:34 - Response XML validated successfully. Value 5 is present at //SubtractResult/text() in response file.
+2017-06-13 15:48:34 - Executing closeConnection()
+2017-06-13 15:48:34 - Executing getConnection()
+2017-06-13 15:48:34 - httpclient object created to connect to the connection url:
+2017-06-13 15:48:34 - ================================   TEST METHOD ENDS   =========================================
+2017-06-13 17:59:51 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 17:59:53 - Starting Speaker Program TeleConference Scenario
+2017-06-13 17:59:53 - User had specified [WebDriverCommandSwitch] command switch for Chrome Browser
+2017-06-13 17:59:57 - Started Google Chrome Driver with command switches successfully
+2017-06-13 18:00:14 - Failed to start the scenario
+2017-06-13 18:01:23 - Page loaded successfully
+2017-06-13 18:01:56 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 18:01:57 - Starting Speaker Program TeleConference Scenario
+2017-06-13 18:01:57 - User had specified [WebDriverCommandSwitch] command switch for Chrome Browser
+2017-06-13 18:02:01 - Started Google Chrome Driver with command switches successfully
+2017-06-13 18:02:17 - Failed to start the scenario
+2017-06-13 18:03:16 - Page loaded successfully
+2017-06-13 18:03:43 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 18:03:45 - Starting Speaker Program Scenario
+2017-06-13 18:03:45 - User had specified [WebDriverCommandSwitch] command switch for Chrome Browser
+2017-06-13 18:03:48 - Started Google Chrome Driver with command switches successfully
+2017-06-13 18:04:04 - Failed to start the scenario
+2017-06-13 18:05:15 - Page loaded successfully
+2017-06-13 18:05:24 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 18:05:26 - Starting Speaker Program Scenario
+2017-06-13 18:05:26 - User had specified [WebDriverCommandSwitch] command switch for Chrome Browser
+2017-06-13 18:05:30 - Started Google Chrome Driver with command switches successfully
+2017-06-13 18:05:46 - Failed to start the scenario
+2017-06-13 18:11:15 - Page loaded successfully
+2017-06-13 18:11:42 - ================================ TEST STARTS NOW  =========================================
+2017-06-13 18:11:44 - Starting Speaker Program Scenario
+2017-06-13 18:11:44 - User had specified [WebDriverCommandSwitch] command switch for Chrome Browser
+2017-06-13 18:11:47 - Started Google Chrome Driver with command switches successfully
+2017-06-13 18:12:04 - Failed to start the scenario
+2017-06-13 18:15:29 - Page loaded successfully
+2017-06-13 18:15:29 - Element element: eleUserName loaded
+2017-06-13 18:15:29 - TextField element: eleUserName => vikas_sharma@epam.com set text successfully
+2017-06-13 18:15:29 - Element element: elePassword loaded
+2017-06-13 18:15:30 - TextField element: elePassword => test@111 set text successfully

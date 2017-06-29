@@ -1,0 +1,5 @@
+2017-05-12 14:29:36 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2017-05-12 14:29:36 - Executing closeConnection()
+2017-05-12 14:29:36 - Executing getConnection()
+2017-05-12 14:29:36 - httpclient object created to connect to the connection url:
+2017-05-12 14:29:36 - ================================   TEST METHOD ENDS   =========================================

@@ -1,0 +1,44 @@
+2017-05-09 18:16:29 - ================================ TEST STARTS NOW  =========================================
+2017-05-09 18:16:32 - Starting Web service Scenario
+2017-05-09 18:16:33 - Executing getConnection()
+2017-05-09 18:16:33 - httpclient object created to connect to the connection url:
+2017-05-09 18:16:33 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2017-05-09 18:16:33 - setReuqest
+2017-05-09 18:16:33 - setReuqest
+2017-05-09 18:16:33 - getReuqest
+2017-05-09 18:16:33 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-05-09 18:16:33 - Executing getConnection()
+2017-05-09 18:16:33 - httpclient object created to connect to the connection url:
+2017-05-09 18:16:33 - getReuqest
+2017-05-09 18:16:34 - Executing getReponse()
+2017-05-09 18:16:34 - Executing getResponseStatus()
+2017-05-09 18:16:34 - The output of the request is:HTTP/1.1 200 OK
+2017-05-09 18:16:34 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2017-05-09 18:16:34 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2017-05-09 18:16:34 - Executing closeConnection()
+2017-05-09 18:16:34 - Executing getConnection()
+2017-05-09 18:16:34 - httpclient object created to connect to the connection url:
+2017-05-09 18:16:34 - ================================   TEST METHOD ENDS   =========================================
+2017-05-09 18:16:34 - ================================ TEST STARTS NOW  =========================================
+2017-05-09 18:16:34 - Starting Web service Scenario
+2017-05-09 18:16:35 - Executing getConnection()
+2017-05-09 18:16:35 - httpclient object created to connect to the connection url:
+2017-05-09 18:16:35 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2017-05-09 18:16:35 - setReuqest
+2017-05-09 18:16:35 - setReuqest
+2017-05-09 18:16:35 - getReuqest
+2017-05-09 18:16:35 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2017-05-09 18:16:35 - Executing getConnection()
+2017-05-09 18:16:35 - httpclient object created to connect to the connection url:
+2017-05-09 18:16:35 - getReuqest
+2017-05-09 18:16:35 - Executing getReponse()
+2017-05-09 18:16:35 - Executing getResponseStatus()
+2017-05-09 18:16:35 - The output of the request is:HTTP/1.1 200 OK
+2017-05-09 18:16:35 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2017-05-09 18:16:35 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2017-05-09 18:16:35 - Executing closeConnection()
+2017-05-09 18:16:35 - Executing getConnection()
+2017-05-09 18:16:35 - httpclient object created to connect to the connection url:
+2017-05-09 18:16:35 - ================================   TEST METHOD ENDS   =========================================

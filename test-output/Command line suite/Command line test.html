@@ -1,0 +1,798 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 18 13:04:20 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>556 seconds (556656 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.epam.scenarios.NegativeScenario.employeeEducationMandatoryFields()'><b>employeeEducationMandatoryFields</b><br>Test class: com.epam.scenarios.NegativeScenario<br/>
+<a href="#Output-1786077314" onClick='toggleBox("Output-1786077314", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1786077314" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1786077314">
+Starting EmployeeEducationMandatoryFields Scenarios<br/>
+================================  TEST METHOD STARTS  =========================================<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: .//*[@id='username']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: .//*[@id='username']]<br/>
+Element element: .//*[@id='username'] loaded successfully<br/>
+TextField element: .//*[@id='username'] set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: .//*[@id='password']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: .//*[@id='password']]<br/>
+Element element: .//*[@id='password'] loaded successfully<br/>
+TextField element: .//*[@id='password'] set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: .//*[@id='Login']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: .//*[@id='Login']]<br/>
+Element element: .//*[@id='Login'] loaded successfully<br/>
+Button element: .//*[@id='Login'] clicked successfully<br/>
+Login successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: .//a[contains(text(),'Interactions')]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: .//a[contains(text(),'Interactions')]]<br/>
+Element element: .//a[contains(text(),'Interactions')] loaded successfully<br/>
+HyperLink element: .//a[contains(text(),'Interactions')] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> css selector: input.btn[name='new']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> css selector: input.btn[name='new']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+DropDown Element: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //*[text()[contains(.,'Start Time')]]//parent::th//following-sibling::td//select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //*[text()[contains(.,'Start Time')]]//parent::th//following-sibling::td//select]<br/>
+Element element: //*[text()[contains(.,'Start Time')]]//parent::th//following-sibling::td//select loaded successfully<br/>
+TextField element: //*[text()[contains(.,'Start Time')]]//parent::th//following-sibling::td//select set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: (//*[text()[contains(.,'End Date')]]//parent::th/following-sibling::td//input)[1]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: (//*[text()[contains(.,'End Date')]]//parent::th/following-sibling::td//input)[1]]<br/>
+Element element: (//*[text()[contains(.,'End Date')]]//parent::th/following-sibling::td//input)[1] loaded successfully<br/>
+TextField element: (//*[text()[contains(.,'End Date')]]//parent::th/following-sibling::td//input)[1] set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Element element: (.//input[@class='btn' and @value='Save'])[1] loaded successfully<br/>
+Button element: (.//input[@class='btn' and @value='Save'])[1] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //h4[text()='Error:']/../..]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //h4[text()='Error:']/../..]<br/>
+Element element: //h4[text()='Error:']/../.. loaded successfully<br/>
+TextField element: //h4[text()='Error:']/../.. set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (c71136e17c8852f22757ccec544d060c)] -> xpath: //h4[text()='Error:']/../..]<br/>
+createInteractionWithMissingDataAndVerifyErrMessage!!!!<br/>
+Ending  EmployeeEducationMandatoryFields Scenario<br/>
+</div>
+</td>
+<td></td>
+<td>68</td>
+<td>com.epam.scenarios.NegativeScenario@4985cbcb</td></tr>
+<tr>
+<td title='com.epam.scenarios.EmployeeEducationScenario.employeeEducationProgram()'><b>employeeEducationProgram</b><br>Test class: com.epam.scenarios.EmployeeEducationScenario<br/>
+<a href="#Output-2042979183" onClick='toggleBox("Output-2042979183", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2042979183" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2042979183">
+Starting EmployeeEducation Scenario<br/>
+================================  TEST METHOD STARTS  =========================================<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//*[@id='username']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//*[@id='username']]<br/>
+Element element: .//*[@id='username'] loaded successfully<br/>
+TextField element: .//*[@id='username'] set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//*[@id='password']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//*[@id='password']]<br/>
+Element element: .//*[@id='password'] loaded successfully<br/>
+TextField element: .//*[@id='password'] set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//*[@id='Login']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//*[@id='Login']]<br/>
+Element element: .//*[@id='Login'] loaded successfully<br/>
+Button element: .//*[@id='Login'] clicked successfully<br/>
+Logged into Sales Force successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//a[contains(text(),'Interactions')]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//a[contains(text(),'Interactions')]]<br/>
+Element element: .//a[contains(text(),'Interactions')] loaded successfully<br/>
+HyperLink element: .//a[contains(text(),'Interactions')] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> css selector: input.btn[name='new']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> css selector: input.btn[name='new']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Interaction Category')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Interaction Type')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+DropDown Element: //*[text()[contains(.,'LocationType')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (//*[text()[contains(.,'Start Date')]]//parent::th/following-sibling::td//input)[1]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (//*[text()[contains(.,'Start Date')]]//parent::th/following-sibling::td//input)[1]]<br/>
+Element element: (//*[text()[contains(.,'Start Date')]]//parent::th/following-sibling::td//input)[1] loaded successfully<br/>
+TextField element: (//*[text()[contains(.,'Start Date')]]//parent::th/following-sibling::td//input)[1] set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Start Time')]]//parent::th//following-sibling::td//select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Start Time')]]//parent::th//following-sibling::td//select]<br/>
+Element element: //*[text()[contains(.,'Start Time')]]//parent::th//following-sibling::td//select loaded successfully<br/>
+TextField element: //*[text()[contains(.,'Start Time')]]//parent::th//following-sibling::td//select set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (//*[text()[contains(.,'End Date')]]//parent::th/following-sibling::td//input)[1]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (//*[text()[contains(.,'End Date')]]//parent::th/following-sibling::td//input)[1]]<br/>
+Element element: (//*[text()[contains(.,'End Date')]]//parent::th/following-sibling::td//input)[1] loaded successfully<br/>
+TextField element: (//*[text()[contains(.,'End Date')]]//parent::th/following-sibling::td//input)[1] set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Element element: (.//input[@class='btn' and @value='Save'])[1] loaded successfully<br/>
+Button element: (.//input[@class='btn' and @value='Save'])[1] clicked successfully<br/>
+Created new interaction<br/>
+Waiting for elementProxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@56d93692<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (//*[text()[contains(.,'Interaction Product Topics')]]//parent::a)[1]]<br/>
+Element element: (//*[text()[contains(.,'Interaction Product Topics')]]//parent::a)[1] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (//*[text()[contains(.,'Interaction Product Topics')]]//parent::a)[1]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (//*[text()[contains(.,'Interaction Product Topics')]]//parent::a)[1]]<br/>
+Element element: (//*[text()[contains(.,'Interaction Product Topics')]]//parent::a)[1] loaded successfully<br/>
+HyperLink element: (//*[text()[contains(.,'Interaction Product Topics')]]//parent::a)[1] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@name='ahm__newproducttopic']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@name='ahm__newproducttopic']]<br/>
+Element element: //input[@name='ahm__newproducttopic'] loaded successfully<br/>
+Button element: //input[@name='ahm__newproducttopic'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'AHM Product')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (//input[@value='Save and Continue'])[1]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (//input[@value='Save and Continue'])[1]]<br/>
+Element element: (//input[@value='Save and Continue'])[1] loaded successfully<br/>
+Button element: (//input[@value='Save and Continue'])[1] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (//input[@value='Save'])[1]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (//input[@value='Save'])[1]]<br/>
+Element element: (//input[@value='Save'])[1] loaded successfully<br/>
+Button element: (//input[@value='Save'])[1] clicked successfully<br/>
+Added product topic<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Locations']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Locations']]<br/>
+Element element: //a/span[text()='Locations'] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Locations']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Locations']]<br/>
+Element element: //a/span[text()='Locations'] loaded successfully<br/>
+Button element: //a/span[text()='Locations'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='New Location']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='New Location']]<br/>
+Element element: //input[@title='New Location'] loaded successfully<br/>
+Button element: //input[@title='New Location'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Search' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Search' and @class='btn']]<br/>
+Element element: //input[@value='Search' and @class='btn'] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Search' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Search' and @class='btn']]<br/>
+Waiting for elementProxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@2875b016<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Location Priority')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Location Priority')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Location Priority')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Location Priority')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Element element: //input[@value='Add Location & Continue' and @class='btn'] loaded successfully<br/>
+Button element: //input[@value='Add Location & Continue' and @class='btn'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Location Priority')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Location Priority')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Location Priority')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Location Priority')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Continue' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Close' and @class='btn']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Location & Close' and @class='btn']]<br/>
+Element element: //input[@value='Add Location & Close' and @class='btn'] loaded successfully<br/>
+Button element: //input[@value='Add Location & Close' and @class='btn'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Locations']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Locations']]<br/>
+Element element: //a/span[text()='Locations'] loaded successfully<br/>
+Added new location<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Participants']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Participants']]<br/>
+Element element: //a/span[text()='Participants'] loaded successfully<br/>
+Button element: //a/span[text()='Participants'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='New Employee']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='New Employee']]<br/>
+Element element: //input[@value='New Employee'] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='New Employee']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='New Employee']]<br/>
+Element element: //input[@value='New Employee'] loaded successfully<br/>
+Button element: //input[@value='New Employee'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> css selector: .detailList .requiredInput select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> css selector: .detailList .requiredInput select]<br/>
+Element element: .detailList .requiredInput select loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> css selector: .detailList .requiredInput select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> css selector: .detailList .requiredInput select]<br/>
+Element element: .detailList .requiredInput select loaded successfully<br/>
+DropDown Element: .detailList .requiredInput select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input]<br/>
+Element element: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input loaded successfully<br/>
+Button element: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input clicked successfully<br/>
+Waiting for elementProxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@4da9f723<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Participant & Close']]<br/>
+Element element: //input[@value='Add Participant & Close'] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Participant & Close']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Participant & Close']]<br/>
+Element element: //input[@value='Add Participant & Close'] loaded successfully<br/>
+Button element: //input[@value='Add Participant & Close'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//*[@id='topButtonRow']/input[1]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//*[@id='topButtonRow']/input[1]]<br/>
+Element element: .//*[@id='topButtonRow']/input[1] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Participants']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Participants']]<br/>
+Element element: //a/span[text()='Participants'] loaded successfully<br/>
+Button element: //a/span[text()='Participants'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@name='ahm__search_employee']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@name='ahm__search_employee']]<br/>
+Element element: //input[@name='ahm__search_employee'] loaded successfully<br/>
+Button element: //input[@name='ahm__search_employee'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> css selector: .detailList .requiredInput select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> css selector: .detailList .requiredInput select]<br/>
+Element element: .detailList .requiredInput select loaded successfully<br/>
+DropDown Element: .detailList .requiredInput select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input]<br/>
+Element element: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input loaded successfully<br/>
+Button element: .//input[@value = 'Search' and @type = 'button']/parent::td/descendant::input clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Participant & Close']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Add Participant & Close']]<br/>
+Element element: //input[@value='Add Participant & Close'] loaded successfully<br/>
+Button element: //input[@value='Add Participant & Close'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Locations']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Locations']]<br/>
+Element element: //a/span[text()='Locations'] loaded successfully<br/>
+Created new participant<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class='listTitle' and text()='Logistic Needs']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class='listTitle' and text()='Logistic Needs']]<br/>
+Element element: //span[@class='listTitle' and text()='Logistic Needs'] loaded successfully<br/>
+Button element: //span[@class='listTitle' and text()='Logistic Needs'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='New Logistic Need']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='New Logistic Need']]<br/>
+Element element: //input[@value='New Logistic Need'] loaded successfully<br/>
+Button element: //input[@value='New Logistic Need'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]<br/>
+Element element: //label[text()='Logistic Need']/../following-sibling::td/select loaded successfully<br/>
+DropDown Element: //label[text()='Logistic Need']/../following-sibling::td/select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Save&New']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Save&New']]<br/>
+Element element: //input[@value='Save&New'] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Save&New']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Save&New']]<br/>
+Element element: //input[@value='Save&New'] loaded successfully<br/>
+Button element: //input[@value='Save&New'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]<br/>
+Element element: //label[text()='Logistic Need']/../following-sibling::td/select loaded successfully<br/>
+DropDown Element: //label[text()='Logistic Need']/../following-sibling::td/select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Save&New']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Save&New']]<br/>
+Element element: //input[@value='Save&New'] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Save&New']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Save&New']]<br/>
+Element element: //input[@value='Save&New'] loaded successfully<br/>
+Button element: //input[@value='Save&New'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]<br/>
+Element element: //label[text()='Logistic Need']/../following-sibling::td/select loaded successfully<br/>
+DropDown Element: //label[text()='Logistic Need']/../following-sibling::td/select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//input[@value = 'Add Row']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//input[@value = 'Add Row']]<br/>
+Element element: .//input[@value = 'Add Row'] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//input[@value = 'Add Row']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//input[@value = 'Add Row']]<br/>
+Element element: .//input[@value = 'Add Row'] loaded successfully<br/>
+Button element: .//input[@value = 'Add Row'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Logistic Need']/../following-sibling::td/select]<br/>
+Element element: //label[text()='Logistic Need']/../following-sibling::td/select loaded successfully<br/>
+DropDown Element: //label[text()='Logistic Need']/../following-sibling::td/select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Delete')]]/parent::td/following-sibling::td[2]/descendant::input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Delete')]]/parent::td/following-sibling::td[2]/descendant::input]<br/>
+Element element: //*[text()[contains(.,'Delete')]]/parent::td/following-sibling::td[2]/descendant::input loaded successfully<br/>
+TextField element: //*[text()[contains(.,'Delete')]]/parent::td/following-sibling::td[2]/descendant::input set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//*[@id='j_id0:logisticsId:fmvcomponents:pbTable:0:targetName']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//*[@id='j_id0:logisticsId:fmvcomponents:pbTable:0:targetName']]<br/>
+Element element: .//*[@id='j_id0:logisticsId:fmvcomponents:pbTable:0:targetName'] loaded successfully<br/>
+TextField element: .//*[@id='j_id0:logisticsId:fmvcomponents:pbTable:0:targetName'] set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Logistic Provider')]]/ancestor::thead/following-sibling::tbody/tr/td[7]/select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Logistic Provider')]]/ancestor::thead/following-sibling::tbody/tr/td[7]/select]<br/>
+Element element: //*[text()[contains(.,'Logistic Provider')]]/ancestor::thead/following-sibling::tbody/tr/td[7]/select loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Logistic Provider')]]/ancestor::thead/following-sibling::tbody/tr/td[7]/select]<br/>
+Element element: //*[text()[contains(.,'Logistic Provider')]]/ancestor::thead/following-sibling::tbody/tr/td[7]/select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Logistic Provider')]]/ancestor::thead/following-sibling::tbody/tr/td[7]/select selected successfully<br/>
+DropDown Element: //*[text()[contains(.,'Logistic Provider')]]/ancestor::thead/following-sibling::tbody/tr/td[7]/select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Save']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Save']]<br/>
+Element element: //input[@value='Save'] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Save']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Save']]<br/>
+Element element: //input[@value='Save'] loaded successfully<br/>
+Button element: //input[@value='Save'] clicked successfully<br/>
+Created new logistics<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Estimates']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Estimates']]<br/>
+Element element: //a/span[text()='Estimates'] loaded successfully<br/>
+Button element: //a/span[text()='Estimates'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='New Estimate']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='New Estimate']]<br/>
+Element element: //input[@title='New Estimate'] loaded successfully<br/>
+Button element: //input[@title='New Estimate'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]<br/>
+Element element: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]<br/>
+Element element: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select loaded successfully<br/>
+DropDown Element: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select selected successfully<br/>
+DropDown Element: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'dataCol')]/input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'dataCol')]/input]<br/>
+Element element: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'dataCol')]/input loaded successfully<br/>
+TextField element: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'dataCol')]/input set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]<br/>
+Element element: .//td[@id='topButtonRow']/input[@name='save'] loaded successfully<br/>
+Button element: .//td[@id='topButtonRow']/input[@name='save'] clicked successfully<br/>
+New estimate created<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]<br/>
+Element element: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]<br/>
+Element element: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a loaded successfully<br/>
+Button element: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Validate']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Validate']]<br/>
+Element element: //input[@value='Validate'] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Validate']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Validate']]<br/>
+Element element: //input[@value='Validate'] loaded successfully<br/>
+Button element: //input[@value='Validate'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction validated successfully')]]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction validated successfully')]]]<br/>
+Element element: //*[text()[contains(.,'Interaction validated successfully')]] loaded successfully<br/>
+Label Element: //*[text()[contains(.,'Interaction validated successfully')]] returned label successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Submit for Approval']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value='Submit for Approval']]<br/>
+Element element: //input[@value='Submit for Approval'] loaded successfully<br/>
+Alert pop-up element:  //input[@value='Submit for Approval'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//a[contains(text(),'Interactions')]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//a[contains(text(),'Interactions')]]<br/>
+Element element: .//a[contains(text(),'Interactions')] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@name='edit']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@name='edit']]<br/>
+Element element: //input[@name='edit'] loaded successfully<br/>
+Button element: //input[@name='edit'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Element element: (.//input[@class='btn' and @value='Save'])[1] loaded successfully<br/>
+Button element: (.//input[@class='btn' and @value='Save'])[1] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@name='edit']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@name='edit']]<br/>
+Element element: //input[@name='edit'] loaded successfully<br/>
+Button element: //input[@name='edit'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Element element: (.//input[@class='btn' and @value='Save'])[1] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Element element: (.//input[@class='btn' and @value='Save'])[1] loaded successfully<br/>
+Button element: (.//input[@class='btn' and @value='Save'])[1] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//a[contains(text(),'Interactions')]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//a[contains(text(),'Interactions')]]<br/>
+Element element: .//a[contains(text(),'Interactions')] loaded successfully<br/>
+Updated interaction status to accepted<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Locations']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Locations']]<br/>
+Element element: //a/span[text()='Locations'] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Locations']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Locations']]<br/>
+Element element: //a/span[text()='Locations'] loaded successfully<br/>
+Button element: //a/span[text()='Locations'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Location Status')]]/parent::td/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Location Status')]]/parent::td/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Location Status')]]/parent::td/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Location Status')]]/parent::td/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='Save']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='Save']]<br/>
+Element element: //input[@title='Save'] loaded successfully<br/>
+Button element: //input[@title='Save'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Participants']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Participants']]<br/>
+Element element: //a/span[text()='Participants'] loaded successfully<br/>
+Button element: //a/span[text()='Participants'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[@value = 'Save']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[@value = 'Save']]<br/>
+Element element: //*[@value = 'Save'] loaded successfully<br/>
+Button element: //*[@value = 'Save'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a[text()[contains(.,'Back to Interaction')]]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a[text()[contains(.,'Back to Interaction')]]]<br/>
+Element element: //a[text()[contains(.,'Back to Interaction')]] loaded successfully<br/>
+Button element: //a[text()[contains(.,'Back to Interaction')]] clicked successfully<br/>
+Confirmed the location<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@name='edit']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@name='edit']]<br/>
+Element element: //input[@name='edit'] loaded successfully<br/>
+Button element: //input[@name='edit'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Element element: (.//input[@class='btn' and @value='Save'])[1] loaded successfully<br/>
+Button element: (.//input[@class='btn' and @value='Save'])[1] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@name='edit']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@name='edit']]<br/>
+Element element: //input[@name='edit'] loaded successfully<br/>
+Button element: //input[@name='edit'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Element element: (.//input[@class='btn' and @value='Save'])[1] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select]<br/>
+Element element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select loaded successfully<br/>
+DropDown Element: //*[text()[contains(.,'Status')]]/parent::th/following-sibling::td[1]/descendant::select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: (.//input[@class='btn' and @value='Save'])[1]]<br/>
+Element element: (.//input[@class='btn' and @value='Save'])[1] loaded successfully<br/>
+Button element: (.//input[@class='btn' and @value='Save'])[1] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Locations']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a/span[text()='Locations']]<br/>
+Element element: //a/span[text()='Locations'] loaded successfully<br/>
+Updated the interaction status to completed<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Element element: //span[@class = 'listTitle' and text()  = 'Expenses'] loaded successfully<br/>
+Button element: //span[@class = 'listTitle' and text()  = 'Expenses'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='New Expense']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='New Expense']]<br/>
+Element element: //input[@title='New Expense'] loaded successfully<br/>
+Button element: //input[@title='New Expense'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Record Type of new record')]/parent::td/following-sibling::td//select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='Continue']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='Continue']]<br/>
+Element element: //input[@title='Continue'] loaded successfully<br/>
+Button element: //input[@title='Continue'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]<br/>
+Element element: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select loaded successfully<br/>
+DropDown Element: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]<br/>
+Element element: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input loaded successfully<br/>
+TextField element: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]<br/>
+Element element: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input loaded successfully<br/>
+TextField element: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]<br/>
+Element element: //label[text()='Status']/parent::td/following-sibling::td//select loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]<br/>
+Element element: //label[text()='Status']/parent::td/following-sibling::td//select loaded successfully<br/>
+DropDown Element: //label[text()='Status']/parent::td/following-sibling::td//select selected successfully<br/>
+DropDown Element: //label[text()='Status']/parent::td/following-sibling::td//select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]<br/>
+Element element: .//td[@id='topButtonRow']/input[@name='save'] loaded successfully<br/>
+Button element: .//td[@id='topButtonRow']/input[@name='save'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]<br/>
+Element element: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a loaded successfully<br/>
+Button element: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Element element: //span[@class = 'listTitle' and text()  = 'Expenses'] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Element element: //span[@class = 'listTitle' and text()  = 'Expenses'] loaded successfully<br/>
+Button element: //span[@class = 'listTitle' and text()  = 'Expenses'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='New Expense']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='New Expense']]<br/>
+Element element: //input[@title='New Expense'] loaded successfully<br/>
+Button element: //input[@title='New Expense'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Record Type of new record')]/parent::td/following-sibling::td//select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='Continue']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='Continue']]<br/>
+Element element: //input[@title='Continue'] loaded successfully<br/>
+Button element: //input[@title='Continue'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]<br/>
+Element element: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select loaded successfully<br/>
+DropDown Element: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]<br/>
+Element element: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input loaded successfully<br/>
+TextField element: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]<br/>
+Element element: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input loaded successfully<br/>
+TextField element: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]<br/>
+Element element: //label[text()='Status']/parent::td/following-sibling::td//select loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]<br/>
+Element element: //label[text()='Status']/parent::td/following-sibling::td//select loaded successfully<br/>
+DropDown Element: //label[text()='Status']/parent::td/following-sibling::td//select selected successfully<br/>
+DropDown Element: //label[text()='Status']/parent::td/following-sibling::td//select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]<br/>
+Element element: .//td[@id='topButtonRow']/input[@name='save'] loaded successfully<br/>
+Button element: .//td[@id='topButtonRow']/input[@name='save'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]<br/>
+Element element: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a loaded successfully<br/>
+Button element: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Element element: //span[@class = 'listTitle' and text()  = 'Expenses'] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Element element: //span[@class = 'listTitle' and text()  = 'Expenses'] loaded successfully<br/>
+Button element: //span[@class = 'listTitle' and text()  = 'Expenses'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='New Expense']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='New Expense']]<br/>
+Element element: //input[@title='New Expense'] loaded successfully<br/>
+Button element: //input[@title='New Expense'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Record Type of new record')]/parent::td/following-sibling::td//select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='Continue']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='Continue']]<br/>
+Element element: //input[@title='Continue'] loaded successfully<br/>
+Button element: //input[@title='Continue'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]<br/>
+Element element: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select loaded successfully<br/>
+DropDown Element: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]<br/>
+Element element: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input loaded successfully<br/>
+TextField element: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]<br/>
+Element element: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input loaded successfully<br/>
+TextField element: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]<br/>
+Element element: //label[text()='Status']/parent::td/following-sibling::td//select loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]<br/>
+Element element: //label[text()='Status']/parent::td/following-sibling::td//select loaded successfully<br/>
+DropDown Element: //label[text()='Status']/parent::td/following-sibling::td//select selected successfully<br/>
+DropDown Element: //label[text()='Status']/parent::td/following-sibling::td//select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]<br/>
+Element element: .//td[@id='topButtonRow']/input[@name='save'] loaded successfully<br/>
+Button element: .//td[@id='topButtonRow']/input[@name='save'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]<br/>
+Element element: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a loaded successfully<br/>
+Button element: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Element element: //span[@class = 'listTitle' and text()  = 'Expenses'] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Element element: //span[@class = 'listTitle' and text()  = 'Expenses'] loaded successfully<br/>
+Button element: //span[@class = 'listTitle' and text()  = 'Expenses'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='New Expense']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='New Expense']]<br/>
+Element element: //input[@title='New Expense'] loaded successfully<br/>
+Button element: //input[@title='New Expense'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Record Type of new record')]/parent::td/following-sibling::td//select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='Continue']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@title='Continue']]<br/>
+Element element: //input[@title='Continue'] loaded successfully<br/>
+Button element: //input[@title='Continue'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select]<br/>
+Element element: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select loaded successfully<br/>
+DropDown Element: //label[contains(text(),'Spend Type')]/parent::td/following-sibling::td//select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input]<br/>
+Element element: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input loaded successfully<br/>
+TextField element: //label[text()='Date of Expense']/parent::td/following-sibling::td[contains(@class,'col02')]//input set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input]<br/>
+Element element: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input loaded successfully<br/>
+TextField element: //label[text()='Amount']/parent::td/following-sibling::td[contains(@class,'col02')]/div/input set text successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]<br/>
+Element element: //label[text()='Status']/parent::td/following-sibling::td//select loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[text()='Status']/parent::td/following-sibling::td//select]<br/>
+Element element: //label[text()='Status']/parent::td/following-sibling::td//select loaded successfully<br/>
+DropDown Element: //label[text()='Status']/parent::td/following-sibling::td//select selected successfully<br/>
+DropDown Element: //label[text()='Status']/parent::td/following-sibling::td//select selected successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: .//td[@id='topButtonRow']/input[@name='save']]<br/>
+Element element: .//td[@id='topButtonRow']/input[@name='save'] loaded successfully<br/>
+Button element: .//td[@id='topButtonRow']/input[@name='save'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a]<br/>
+Element element: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a loaded successfully<br/>
+Button element: //*[text()[contains(.,'Interaction')]]/following-sibling::td/div/a clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //span[@class = 'listTitle' and text()  = 'Expenses']]<br/>
+Element element: //span[@class = 'listTitle' and text()  = 'Expenses'] loaded successfully<br/>
+Expense paid successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[@id='topButtonRow']/input[5]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[@id='topButtonRow']/input[5]]<br/>
+Element element: //*[@id='topButtonRow']/input[5] loaded successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[@id='topButtonRow']/input[5]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //*[@id='topButtonRow']/input[5]]<br/>
+Element element: //*[@id='topButtonRow']/input[5] loaded successfully<br/>
+Button element: //*[@id='topButtonRow']/input[5] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a[contains(text(),'Disclosure Agreement')]]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //a[contains(text(),'Disclosure Agreement')]]<br/>
+Element element: //a[contains(text(),'Disclosure Agreement')] loaded successfully<br/>
+Button element: //a[contains(text(),'Disclosure Agreement')] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@type = 'submit' and @value = 'Accept']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@type = 'submit' and @value = 'Accept']]<br/>
+Element element: //input[@type = 'submit' and @value = 'Accept'] loaded successfully<br/>
+Button element: //input[@type = 'submit' and @value = 'Accept'] clicked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Have all participants been reconciled?')]/parent::th/following-sibling::td[1]//input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Have all participants been reconciled?')]/parent::th/following-sibling::td[1]//input]<br/>
+Element element: //label[contains(text(),'Have all participants been reconciled?')]/parent::th/following-sibling::td[1]//input loaded successfully<br/>
+Checkbox element: //label[contains(text(),'Have all participants been reconciled?')]/parent::th/following-sibling::td[1]//input checked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Have all participants been reconciled?')]/parent::th/following-sibling::td[2]//input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Have all participants been reconciled?')]/parent::th/following-sibling::td[2]//input]<br/>
+Element element: //label[contains(text(),'Have all participants been reconciled?')]/parent::th/following-sibling::td[2]//input loaded successfully<br/>
+Checkbox element: //label[contains(text(),'Have all participants been reconciled?')]/parent::th/following-sibling::td[2]//input checked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Have all the expenses been reconciled and the appropriate documentation attached?')]/parent::th/following-sibling::td[1]//input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Have all the expenses been reconciled and the appropriate documentation attached?')]/parent::th/following-sibling::td[1]//input]<br/>
+Element element: //label[contains(text(),'Have all the expenses been reconciled and the appropriate documentation attached?')]/parent::th/following-sibling::td[1]//input loaded successfully<br/>
+Checkbox element: //label[contains(text(),'Have all the expenses been reconciled and the appropriate documentation attached?')]/parent::th/following-sibling::td[1]//input checked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Have all the expenses been reconciled and the appropriate documentation attached?')]/parent::th/following-sibling::td[2]//input]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //label[contains(text(),'Have all the expenses been reconciled and the appropriate documentation attached?')]/parent::th/following-sibling::td[2]//input]<br/>
+Element element: //label[contains(text(),'Have all the expenses been reconciled and the appropriate documentation attached?')]/parent::th/following-sibling::td[2]//input loaded successfully<br/>
+Checkbox element: //label[contains(text(),'Have all the expenses been reconciled and the appropriate documentation attached?')]/parent::th/following-sibling::td[2]//input checked successfully<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value = 'Closeout']]<br/>
+Waiting for element[[ChromeDriver: chrome on XP (4921b41a0a850d3cd81b257318b28770)] -> xpath: //input[@value = 'Closeout']]<br/>
+Element element: //input[@value = 'Closeout'] loaded successfully<br/>
+Button element: //input[@value = 'Closeout'] clicked successfully<br/>
+Added disclosure agreement successfully<br/>
+Ending Employee Education Scenario<br/>
+</div>
+</td>
+<td></td>
+<td>476</td>
+<td>com.epam.scenarios.EmployeeEducationScenario@15a902e7</td></tr>
+</table><p>
+</body>
+</html>

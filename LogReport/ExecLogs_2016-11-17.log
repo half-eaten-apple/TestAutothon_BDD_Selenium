@@ -1,0 +1,42 @@
+2016-11-17 00:14:26 INFO   Common Automation Framework :87 - ================================ TEST STARTS NOW  =========================================
+2016-11-17 00:14:27 INFO   Common Automation Framework :87 - Starting Speaker Program Scenario
+2016-11-17 00:14:28 INFO  SetupSelenium:58 - User had specified [WebDriverCommandSwitch] command switch for Chrome Browser
+2016-11-17 00:14:31 INFO  SetupSelenium:68 - Started Google Chrome Driver with command switches successfully
+2016-11-17 00:14:40 INFO   Common Automation Framework :87 - ================================  TEST METHOD STARTS  =========================================
+2016-11-17 00:14:40 ERROR PageClass:30 - Page did not load completely
+2016-11-17 00:14:40 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (2c395c105c741e56986b87e12295c0c2)] -> xpath: .//*[@id='username']]
+2016-11-17 00:14:40 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (2c395c105c741e56986b87e12295c0c2)] -> xpath: .//*[@id='username']]
+2016-11-17 00:14:40 INFO  ElementImpl:56 - Element element: Not Found!!!.//*[@id='username'] loaded
+2016-11-17 00:14:41 INFO  ElementImpl:56 - TextField element: Not Found!!!.//*[@id='username'] set text successfully
+2016-11-17 00:14:41 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (2c395c105c741e56986b87e12295c0c2)] -> xpath: .//*[@id='password']]
+2016-11-17 00:14:41 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (2c395c105c741e56986b87e12295c0c2)] -> xpath: .//*[@id='password']]
+2016-11-17 00:14:41 INFO  ElementImpl:56 - Element element: Not Found!!!.//*[@id='password'] loaded
+2016-11-17 00:14:41 INFO  ElementImpl:56 - TextField element: Not Found!!!.//*[@id='password'] set text successfully
+2016-11-17 00:14:41 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (2c395c105c741e56986b87e12295c0c2)] -> xpath: .//*[@id='Login']]
+2016-11-17 00:14:41 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (2c395c105c741e56986b87e12295c0c2)] -> xpath: .//*[@id='Login']]
+2016-11-17 00:14:41 INFO  ElementImpl:56 - Element element: Not Found!!!.//*[@id='Login'] loaded
+2016-11-17 00:14:42 INFO  ElementImpl:56 - Button element: Not Found!!!.//*[@id='Login'] clicked
+2016-11-17 00:14:42 INFO   Common Automation Framework :87 - Logged into successfully
+2016-11-17 00:17:04 INFO   Common Automation Framework :87 - ================================ TEST STARTS NOW  =========================================
+2016-11-17 00:17:05 INFO   Common Automation Framework :87 - Starting Speaker Program Scenario
+2016-11-17 00:17:05 INFO  SetupSelenium:58 - User had specified [WebDriverCommandSwitch] command switch for Chrome Browser
+2016-11-17 00:17:08 INFO  SetupSelenium:68 - Started Google Chrome Driver with command switches successfully
+2016-11-17 00:25:25 INFO   Common Automation Framework :57 - ================================ TEST STARTS NOW  =========================================
+2016-11-17 00:25:27 INFO   Common Automation Framework :57 - Starting Speaker Program Scenario
+2016-11-17 00:25:27 INFO  SetupSelenium:58 - User had specified [WebDriverCommandSwitch] command switch for Chrome Browser
+2016-11-17 00:25:31 INFO  SetupSelenium:68 - Started Google Chrome Driver with command switches successfully
+2016-11-17 00:25:40 INFO   Common Automation Framework :57 - ================================  TEST METHOD STARTS  =========================================
+2016-11-17 00:25:40 ERROR PageClass:30 - Page did not load completely
+2016-11-17 00:25:40 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (d87edc2f420d5d8548ba86d53cdce298)] -> xpath: .//*[@id='username']]
+2016-11-17 00:25:40 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (d87edc2f420d5d8548ba86d53cdce298)] -> xpath: .//*[@id='username']]
+2016-11-17 00:25:40 INFO  ElementImpl:56 - Element element: Not Found!!!.//*[@id='username'] loaded
+2016-11-17 00:25:40 INFO  ElementImpl:56 - TextField element: Not Found!!!.//*[@id='username'] set text successfully
+2016-11-17 00:25:40 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (d87edc2f420d5d8548ba86d53cdce298)] -> xpath: .//*[@id='password']]
+2016-11-17 00:25:40 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (d87edc2f420d5d8548ba86d53cdce298)] -> xpath: .//*[@id='password']]
+2016-11-17 00:25:40 INFO  ElementImpl:56 - Element element: Not Found!!!.//*[@id='password'] loaded
+2016-11-17 00:25:40 INFO  ElementImpl:56 - TextField element: Not Found!!!.//*[@id='password'] set text successfully
+2016-11-17 00:25:41 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (d87edc2f420d5d8548ba86d53cdce298)] -> xpath: .//*[@id='Login']]
+2016-11-17 00:25:41 INFO  Services:29 - >>>> Waiting for element <<<< : [[ChromeDriver: chrome on XP (d87edc2f420d5d8548ba86d53cdce298)] -> xpath: .//*[@id='Login']]
+2016-11-17 00:25:41 INFO  ElementImpl:56 - Element element: Not Found!!!.//*[@id='Login'] loaded
+2016-11-17 00:25:42 INFO  ElementImpl:56 - Button element: Not Found!!!.//*[@id='Login'] clicked
+2016-11-17 00:25:42 INFO   Common Automation Framework :57 - Logged into successfully

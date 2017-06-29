@@ -1,0 +1,280 @@
+2016-12-05 10:59:54 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 10:59:55 - Starting Web service Scenario
+2016-12-05 10:59:55 - Executing getConnection()
+2016-12-05 10:59:56 - httpclient object created to connect to the connection url:
+2016-12-05 10:59:56 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 10:59:56 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 10:59:56 - Executing getConnection()
+2016-12-05 10:59:56 - httpclient object created to connect to the connection url:
+2016-12-05 11:00:18 - Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:00:18 - Failed to establish webservice connectioncom.epam.utils.FrameworkExceptions: Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:00:19 - ================================   TEST METHOD ENDS   =========================================
+2016-12-05 11:00:19 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 11:00:19 - Starting Web service Scenario
+2016-12-05 11:00:19 - Executing getConnection()
+2016-12-05 11:00:19 - httpclient object created to connect to the connection url:
+2016-12-05 11:00:19 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 11:00:19 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 11:00:19 - Executing getConnection()
+2016-12-05 11:00:19 - httpclient object created to connect to the connection url:
+2016-12-05 11:00:40 - Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:00:41 - Failed to establish webservice connectioncom.epam.utils.FrameworkExceptions: Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:00:41 - ================================   TEST METHOD ENDS   =========================================
+2016-12-05 11:03:24 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 11:03:25 - Starting Web service Scenario
+2016-12-05 11:03:26 - Executing getConnection()
+2016-12-05 11:03:26 - httpclient object created to connect to the connection url:
+2016-12-05 11:03:26 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 11:03:26 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 11:03:26 - Executing getConnection()
+2016-12-05 11:03:26 - httpclient object created to connect to the connection url:
+2016-12-05 11:03:48 - Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:03:48 - Failed to establish webservice connectioncom.epam.utils.FrameworkExceptions: Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:03:49 - ================================   TEST METHOD ENDS   =========================================
+2016-12-05 11:03:49 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 11:03:49 - Starting Web service Scenario
+2016-12-05 11:03:49 - Executing getConnection()
+2016-12-05 11:03:49 - httpclient object created to connect to the connection url:
+2016-12-05 11:03:49 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 11:03:49 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 11:03:49 - Executing getConnection()
+2016-12-05 11:03:49 - httpclient object created to connect to the connection url:
+2016-12-05 11:04:10 - Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:04:11 - Failed to establish webservice connectioncom.epam.utils.FrameworkExceptions: Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:04:11 - ================================   TEST METHOD ENDS   =========================================
+2016-12-05 11:11:30 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 11:11:31 - Starting Web service Scenario
+2016-12-05 11:11:31 - Executing getConnection()
+2016-12-05 11:11:32 - httpclient object created to connect to the connection url:
+2016-12-05 11:11:32 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 11:11:32 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 11:11:32 - Executing getConnection()
+2016-12-05 11:11:32 - httpclient object created to connect to the connection url:
+2016-12-05 11:11:54 - Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:11:54 - Failed to establish webservice connectioncom.epam.utils.FrameworkExceptions: Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:11:55 - ================================   TEST METHOD ENDS   =========================================
+2016-12-05 11:11:55 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 11:11:55 - Starting Web service Scenario
+2016-12-05 11:11:55 - Executing getConnection()
+2016-12-05 11:11:55 - httpclient object created to connect to the connection url:
+2016-12-05 11:11:56 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 11:11:56 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 11:11:56 - Executing getConnection()
+2016-12-05 11:11:56 - httpclient object created to connect to the connection url:
+2016-12-05 11:12:17 - Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:12:18 - Failed to establish webservice connectioncom.epam.utils.FrameworkExceptions: Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:12:18 - ================================   TEST METHOD ENDS   =========================================
+2016-12-05 11:13:31 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 11:13:32 - Starting Web service Scenario
+2016-12-05 11:13:32 - Executing getConnection()
+2016-12-05 11:13:33 - httpclient object created to connect to the connection url:
+2016-12-05 11:13:33 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 11:13:33 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 11:13:33 - Executing getConnection()
+2016-12-05 11:13:33 - httpclient object created to connect to the connection url:
+2016-12-05 11:13:54 - Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:13:54 - Failed to establish webservice connectioncom.epam.utils.FrameworkExceptions: Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:13:55 - ================================   TEST METHOD ENDS   =========================================
+2016-12-05 11:13:56 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 11:13:56 - Starting Web service Scenario
+2016-12-05 11:13:56 - Executing getConnection()
+2016-12-05 11:13:56 - httpclient object created to connect to the connection url:
+2016-12-05 11:13:56 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 11:13:56 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 11:13:56 - Executing getConnection()
+2016-12-05 11:13:56 - httpclient object created to connect to the connection url:
+2016-12-05 11:22:52 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 11:22:53 - Starting Web service Scenario
+2016-12-05 11:22:53 - Executing getConnection()
+2016-12-05 11:22:53 - httpclient object created to connect to the connection url:
+2016-12-05 11:22:53 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 11:22:54 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 11:22:54 - Executing getConnection()
+2016-12-05 11:22:54 - httpclient object created to connect to the connection url:
+2016-12-05 11:23:15 - Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:23:15 - Failed to establish webservice connectioncom.epam.utils.FrameworkExceptions: Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:23:16 - ================================   TEST METHOD ENDS   =========================================
+2016-12-05 11:23:17 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 11:23:17 - Starting Web service Scenario
+2016-12-05 11:23:17 - Executing getConnection()
+2016-12-05 11:23:17 - httpclient object created to connect to the connection url:
+2016-12-05 11:23:17 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 11:23:17 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 11:23:17 - Executing getConnection()
+2016-12-05 11:23:17 - httpclient object created to connect to the connection url:
+2016-12-05 11:23:38 - Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:23:39 - Failed to establish webservice connectioncom.epam.utils.FrameworkExceptions: Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:23:39 - ================================   TEST METHOD ENDS   =========================================
+2016-12-05 11:25:48 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 11:25:49 - Starting Web service Scenario
+2016-12-05 11:25:49 - Executing getConnection()
+2016-12-05 11:25:50 - httpclient object created to connect to the connection url:
+2016-12-05 11:25:50 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 11:25:50 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 11:25:50 - Executing getConnection()
+2016-12-05 11:25:50 - httpclient object created to connect to the connection url:
+2016-12-05 11:26:11 - Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:26:11 - Failed to establish webservice connectioncom.epam.utils.FrameworkExceptions: Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:26:12 - ================================   TEST METHOD ENDS   =========================================
+2016-12-05 11:26:13 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 11:26:13 - Starting Web service Scenario
+2016-12-05 11:26:13 - Executing getConnection()
+2016-12-05 11:26:13 - httpclient object created to connect to the connection url:
+2016-12-05 11:26:13 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 11:26:13 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 11:26:13 - Executing getConnection()
+2016-12-05 11:26:13 - httpclient object created to connect to the connection url:
+2016-12-05 11:26:34 - Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:26:35 - Failed to establish webservice connectioncom.epam.utils.FrameworkExceptions: Exception occurred while executing the sendRequest(). Exception is:Connect to www.dneonline.com:80 [www.dneonline.com/45.40.165.23] failed: Connection timed out: connect
+2016-12-05 11:26:35 - ================================   TEST METHOD ENDS   =========================================
+2016-12-05 13:15:01 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 13:15:02 - Starting AddTwoIntegersWebServiceScenario
+2016-12-05 13:15:02 - Executing getConnection()
+2016-12-05 13:15:02 - httpclient object created to connect to the connection url:
+2016-12-05 13:15:02 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 13:15:02 - setReuqest
+2016-12-05 13:15:03 - setReuqest
+2016-12-05 13:15:03 - getReuqest
+2016-12-05 13:15:03 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 13:15:03 - Executing getConnection()
+2016-12-05 13:15:03 - httpclient object created to connect to the connection url:
+2016-12-05 13:15:03 - getReuqest
+2016-12-05 13:15:04 - Executing getReponse()
+2016-12-05 13:15:04 - Executing getResponseStatus()
+2016-12-05 13:15:04 - The output of the request is:HTTP/1.1 200 OK
+2016-12-05 13:15:04 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2016-12-05 13:15:05 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2016-12-05 13:15:05 - Executing closeConnection()
+2016-12-05 13:15:05 - Executing getConnection()
+2016-12-05 13:15:05 - httpclient object created to connect to the connection url:
+2016-12-05 13:15:05 - ================================   TEST METHOD ENDS   =========================================
+2016-12-05 13:15:06 - Starting SubtractTwoIntegersWebServiceScenario
+2016-12-05 13:15:06 - Executing getConnection()
+2016-12-05 13:15:07 - httpclient object created to connect to the connection url:
+2016-12-05 13:15:07 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Subtract; requestBody: <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Subtract>
+         <tem:intA>10</tem:intA>
+         <tem:intB>5</tem:intB>
+      </tem:Subtract>
+   </soap:Body>
+</soap:Envelope>
+2016-12-05 13:15:07 - setReuqest
+2016-12-05 13:15:07 - setReuqest
+2016-12-05 13:15:07 - getReuqest
+2016-12-05 13:15:07 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 13:15:07 - Executing getConnection()
+2016-12-05 13:15:07 - httpclient object created to connect to the connection url:
+2016-12-05 13:15:07 - getReuqest
+2016-12-05 13:15:08 - Executing getReponse()
+2016-12-05 13:15:08 - Executing getResponseStatus()
+2016-12-05 13:15:08 - The output of the request is:HTTP/1.1 200 OK
+2016-12-05 13:15:08 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SubtractResponse xmlns="http://tempuri.org/"><SubtractResult>5</SubtractResult></SubtractResponse></soap:Body></soap:Envelope>
+2016-12-05 13:15:08 - Response XML validated successfully. Value 5 is present at //SubtractResult/text() in response file.
+2016-12-05 13:15:08 - Executing closeConnection()
+2016-12-05 13:15:08 - Executing getConnection()
+2016-12-05 13:15:08 - httpclient object created to connect to the connection url:
+2016-12-05 13:15:09 - ================================   TEST METHOD ENDS   TEST METHOD ENDS   =========================================
+2016-12-05 13:22:06 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 13:22:08 - Starting Web service Scenario
+2016-12-05 13:22:08 - Executing getConnection()
+2016-12-05 13:22:09 - httpclient object created to connect to the connection url:
+2016-12-05 13:22:09 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 13:22:09 - setReuqest
+2016-12-05 13:22:09 - setReuqest
+2016-12-05 13:22:09 - getReuqest
+2016-12-05 13:22:09 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 13:22:09 - Executing getConnection()
+2016-12-05 13:22:09 - httpclient object created to connect to the connection url:
+2016-12-05 13:22:09 - getReuqest
+2016-12-05 13:22:10 - Executing getReponse()
+2016-12-05 13:22:10 - Executing getResponseStatus()
+2016-12-05 13:22:10 - The output of the request is:HTTP/1.1 200 OK
+2016-12-05 13:22:10 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2016-12-05 13:22:11 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2016-12-05 13:22:11 - Executing closeConnection()
+2016-12-05 13:22:11 - Executing getConnection()
+2016-12-05 13:22:11 - httpclient object created to connect to the connection url:
+2016-12-05 13:22:11 - ================================   TEST METHOD ENDS   =========================================
+2016-12-05 13:22:11 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 13:22:11 - Starting Web service Scenario
+2016-12-05 13:22:11 - Executing getConnection()
+2016-12-05 13:22:11 - httpclient object created to connect to the connection url:
+2016-12-05 13:22:12 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 13:22:12 - setReuqest
+2016-12-05 13:22:12 - setReuqest
+2016-12-05 13:22:12 - getReuqest
+2016-12-05 13:22:12 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 13:22:12 - Executing getConnection()
+2016-12-05 13:22:12 - httpclient object created to connect to the connection url:
+2016-12-05 13:22:12 - getReuqest
+2016-12-05 13:22:13 - Executing getReponse()
+2016-12-05 13:22:13 - Executing getResponseStatus()
+2016-12-05 13:22:13 - The output of the request is:HTTP/1.1 200 OK
+2016-12-05 13:22:13 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2016-12-05 13:22:13 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2016-12-05 13:22:13 - Executing closeConnection()
+2016-12-05 13:22:13 - Executing getConnection()
+2016-12-05 13:22:13 - httpclient object created to connect to the connection url:
+2016-12-05 13:22:13 - ================================   TEST METHOD ENDS   =========================================
+2016-12-05 16:19:00 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 16:19:01 - Starting Web service Scenario
+2016-12-05 16:19:01 - Executing getConnection()
+2016-12-05 16:19:02 - httpclient object created to connect to the connection url:
+2016-12-05 16:19:02 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 16:19:02 - setReuqest
+2016-12-05 16:19:02 - setReuqest
+2016-12-05 16:19:02 - getReuqest
+2016-12-05 16:19:02 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 16:19:02 - Executing getConnection()
+2016-12-05 16:19:03 - httpclient object created to connect to the connection url:
+2016-12-05 16:19:03 - getReuqest
+2016-12-05 16:19:04 - Executing getReponse()
+2016-12-05 16:19:04 - Executing getResponseStatus()
+2016-12-05 16:19:04 - The output of the request is:HTTP/1.1 200 OK
+2016-12-05 16:19:04 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2016-12-05 16:19:04 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2016-12-05 16:19:04 - Executing closeConnection()
+2016-12-05 16:19:04 - Executing getConnection()
+2016-12-05 16:19:04 - httpclient object created to connect to the connection url:
+2016-12-05 16:19:05 - ================================   TEST METHOD ENDS   =========================================
+2016-12-05 16:19:05 - ================================ TEST STARTS NOW  =========================================
+2016-12-05 16:19:05 - Starting Web service Scenario
+2016-12-05 16:19:05 - Executing getConnection()
+2016-12-05 16:19:05 - httpclient object created to connect to the connection url:
+2016-12-05 16:19:05 - Execuing loadRequest() with the parameters: url: http://www.dneonline.com/calculator.asmx?WSDL; appenders: ; requestType: POST; requestHeaders: Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/Add; requestBody: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">    <soapenv:Header/>    <soapenv:Body>       <tem:Add>          <tem:intA>10</tem:intA>          <tem:intB>5</tem:intB>       </tem:Add>    </soapenv:Body> </soapenv:Envelope>
+2016-12-05 16:19:05 - setReuqest
+2016-12-05 16:19:05 - setReuqest
+2016-12-05 16:19:05 - getReuqest
+2016-12-05 16:19:05 - Executing the sendRequest()POST http://www.dneonline.com/calculator.asmx?WSDL HTTP/1.1
+2016-12-05 16:19:06 - Executing getConnection()
+2016-12-05 16:19:06 - httpclient object created to connect to the connection url:
+2016-12-05 16:19:06 - getReuqest
+2016-12-05 16:19:06 - Executing getReponse()
+2016-12-05 16:19:06 - Executing getResponseStatus()
+2016-12-05 16:19:07 - The output of the request is:HTTP/1.1 200 OK
+2016-12-05 16:19:07 - The output of the request is:<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>15</AddResult></AddResponse></soap:Body></soap:Envelope>
+2016-12-05 16:19:07 - Response XML validated successfully. Value 15 is present at //AddResponse/AddResult/text() in response file.
+2016-12-05 16:19:07 - Executing closeConnection()
+2016-12-05 16:19:07 - Executing getConnection()
+2016-12-05 16:19:07 - httpclient object created to connect to the connection url:
+2016-12-05 16:19:07 - ================================   TEST METHOD ENDS   =========================================

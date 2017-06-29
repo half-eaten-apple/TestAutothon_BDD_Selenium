@@ -1,0 +1,4 @@
+2016-10-03 12:10:34,384 INFO  Config Reading the Configuartion file
+2016-10-03 12:10:34,384 INFO  ReadXML Started reading of the xml file: D:\Selenium Framework\CAF\CAF27Sept\AHM\AHM\Configuration\config.xml
+2016-10-03 12:10:34,524 INFO  ReadXML Completed reading of the xml file: D:\Selenium Framework\CAF\CAF27Sept\AHM\AHM\Configuration\config.xml
+2016-10-03 12:10:34,524 INFO  Config Completed the reading of the Configuration file

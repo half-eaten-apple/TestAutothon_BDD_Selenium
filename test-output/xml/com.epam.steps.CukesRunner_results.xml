@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChromeDriver"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="749.878">
+  <properties />
+  
+  
+            <testcase name="feature" time="77.884" classname="com.epam.steps.CukesRunner" />
+                <testcase name="feature" time="671.994" classname="com.epam.steps.CukesRunner" />
+      
+</testsuite>
